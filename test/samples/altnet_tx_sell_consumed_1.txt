@@ -1,0 +1,71 @@
+// when a sell order is taken this happen
+Subscribed to account rD8dZy2cXdzURTbFb3bhebQ3FFvaWCB8Nx
+{
+  "type": "order",
+  "address": "rD8dZy2cXdzURTbFb3bhebQ3FFvaWCB8Nx",
+  "sequence": 346,
+  "id": "B18B10B6ADB5B775148AD6F5EA3F335CDF293087F01D63F8C40B923AE9C43B23",
+  "specification": {
+    "direction": "sell",
+    "quantity": {
+      "currency": "XRP",
+      "value": "10"
+    },
+    "totalPrice": {
+      "currency": "USD",
+      "value": "2",
+      "counterparty": "rHjGuGDJvKQ2RSLj3WesnxVoKVVhbSwYQL"
+    }
+  },
+  "outcome": {
+    "result": "tesSUCCESS",
+    "timestamp": "2017-05-30T04:49:20.000Z",
+    "fee": "0.000012",
+    "balanceChanges": {
+      "rDnUEzgvZHE6UX7ZJXBA4wt5jWC4uwXAjL": [{
+        "currency": "XRP",
+        "value": "10"
+      }, {
+        "counterparty": "rHjGuGDJvKQ2RSLj3WesnxVoKVVhbSwYQL",
+        "currency": "USD",
+        "value": "-2"
+      }],
+      "rD8dZy2cXdzURTbFb3bhebQ3FFvaWCB8Nx": [{
+        "counterparty": "rHjGuGDJvKQ2RSLj3WesnxVoKVVhbSwYQL",
+        "currency": "USD",
+        "value": "2"
+      }, {
+        "currency": "XRP",
+        "value": "-10.000012"
+      }],
+      "rHjGuGDJvKQ2RSLj3WesnxVoKVVhbSwYQL": [{
+        "counterparty": "rD8dZy2cXdzURTbFb3bhebQ3FFvaWCB8Nx",
+        "currency": "USD",
+        "value": "-2"
+      }, {
+        "counterparty": "rDnUEzgvZHE6UX7ZJXBA4wt5jWC4uwXAjL",
+        "currency": "USD",
+        "value": "2"
+      }]
+    },
+    "orderbookChanges": {
+      "rDnUEzgvZHE6UX7ZJXBA4wt5jWC4uwXAjL": [{
+        "direction": "sell",
+        "quantity": {
+          "currency": "USD",
+          "counterparty": "rHjGuGDJvKQ2RSLj3WesnxVoKVVhbSwYQL",
+          "value": "2"
+        },
+        "totalPrice": {
+          "currency": "XRP",
+          "value": "10"
+        },
+        "sequence": 474,
+        "status": "partially-filled",
+        "makerExchangeRate": "5"
+      }]
+    },
+    "ledgerVersion": 1566824,
+    "indexInLedger": 2
+  }
+}

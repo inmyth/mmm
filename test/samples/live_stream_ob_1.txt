@@ -1,0 +1,1528 @@
+connected
+[
+  {
+    "type": "order",
+    "address": "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN",
+    "sequence": 1199059,
+    "id": "FEE2585DA72AC9B623C2CEE0E97AEE0C5501F7DA26A13B84A86FDC2E9CA056BC",
+    "specification": {
+      "direction": "buy",
+      "quantity": {
+        "currency": "JPY",
+        "value": "150753.76884422",
+        "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+      },
+      "totalPrice": {
+        "currency": "CNY",
+        "value": "9202.75684057",
+        "counterparty": "razqQKzJRdB4UxFPWf5NEpEG3WMkmwgcXA"
+      },
+      "passive": true
+    },
+    "outcome": {
+      "result": "tesSUCCESS",
+      "timestamp": "2017-05-26T02:49:32.000Z",
+      "fee": "0.000015",
+      "balanceChanges": {
+        "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN": [
+          {
+            "currency": "XRP",
+            "value": "-0.000015"
+          }
+        ]
+      },
+      "orderbookChanges": {
+        "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN": [
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "JPY",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "150753.76884422"
+            },
+            "totalPrice": {
+              "currency": "CNY",
+              "counterparty": "razqQKzJRdB4UxFPWf5NEpEG3WMkmwgcXA",
+              "value": "9202.75684057"
+            },
+            "sequence": 1199059,
+            "status": "created",
+            "makerExchangeRate": "16.38137043669651"
+          },
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "JPY",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "150300.6012024"
+            },
+            "totalPrice": {
+              "currency": "CNY",
+              "counterparty": "razqQKzJRdB4UxFPWf5NEpEG3WMkmwgcXA",
+              "value": "9203.80047506"
+            },
+            "sequence": 1199026,
+            "status": "cancelled",
+            "makerExchangeRate": "16.33027591261643"
+          }
+        ]
+      },
+      "ledgerVersion": 30030121,
+      "indexInLedger": 51
+    }
+  },
+  {
+    "type": "order",
+    "address": "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN",
+    "sequence": 1199058,
+    "id": "DC1C1A2D44F6BBCC782253583A3EF6926E5EF4B5888B431D684C22C8D3ACC870",
+    "specification": {
+      "direction": "buy",
+      "quantity": {
+        "currency": "JPY",
+        "value": "150300.6012024",
+        "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+      },
+      "totalPrice": {
+        "currency": "CNY",
+        "value": "9202.75684057",
+        "counterparty": "razqQKzJRdB4UxFPWf5NEpEG3WMkmwgcXA"
+      },
+      "passive": true
+    },
+    "outcome": {
+      "result": "tesSUCCESS",
+      "timestamp": "2017-05-26T02:49:32.000Z",
+      "fee": "0.000015",
+      "balanceChanges": {
+        "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN": [
+          {
+            "currency": "XRP",
+            "value": "-0.000015"
+          }
+        ]
+      },
+      "orderbookChanges": {
+        "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN": [
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "JPY",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "150753.76884422"
+            },
+            "totalPrice": {
+              "currency": "CNY",
+              "counterparty": "razqQKzJRdB4UxFPWf5NEpEG3WMkmwgcXA",
+              "value": "9203.80047506"
+            },
+            "sequence": 1199027,
+            "status": "cancelled",
+            "makerExchangeRate": "16.3795129254187"
+          },
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "JPY",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "150300.6012024"
+            },
+            "totalPrice": {
+              "currency": "CNY",
+              "counterparty": "razqQKzJRdB4UxFPWf5NEpEG3WMkmwgcXA",
+              "value": "9202.75684057"
+            },
+            "sequence": 1199058,
+            "status": "created",
+            "makerExchangeRate": "16.33212784019301"
+          }
+        ]
+      },
+      "ledgerVersion": 30030121,
+      "indexInLedger": 50
+    }
+  },
+  {
+    "type": "order",
+    "address": "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN",
+    "sequence": 1199049,
+    "id": "7FFDCAC73688A15182F6E6EF3751F041607AEFA159CD4BF5471F9EB72A4D3A09",
+    "specification": {
+      "direction": "buy",
+      "quantity": {
+        "currency": "ETH",
+        "value": "21.41035674",
+        "counterparty": "rcA8X3TVMST1n3CJeAdGk1RdRCHii7N2h"
+      },
+      "totalPrice": {
+        "currency": "ETH",
+        "value": "21.26078339",
+        "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+      },
+      "passive": true
+    },
+    "outcome": {
+      "result": "tesSUCCESS",
+      "timestamp": "2017-05-26T02:49:32.000Z",
+      "fee": "0.000015",
+      "balanceChanges": {
+        "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN": [
+          {
+            "currency": "XRP",
+            "value": "-0.000015"
+          }
+        ]
+      },
+      "orderbookChanges": {
+        "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN": [
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "ETH",
+              "counterparty": "rcA8X3TVMST1n3CJeAdGk1RdRCHii7N2h",
+              "value": "21.32462959"
+            },
+            "totalPrice": {
+              "currency": "ETH",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "21.26078339"
+            },
+            "sequence": 1199016,
+            "status": "cancelled",
+            "makerExchangeRate": "1.00300300317391"
+          },
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "ETH",
+              "counterparty": "rcA8X3TVMST1n3CJeAdGk1RdRCHii7N2h",
+              "value": "21.41035674"
+            },
+            "totalPrice": {
+              "currency": "ETH",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "21.26078339"
+            },
+            "sequence": 1199049,
+            "status": "created",
+            "makerExchangeRate": "1.007035175856706"
+          }
+        ]
+      },
+      "ledgerVersion": 30030121,
+      "indexInLedger": 41
+    }
+  },
+  {
+    "type": "order",
+    "address": "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN",
+    "sequence": 1199048,
+    "id": "AF372837A4527BD013FC87E37DC9B53105081E3F1112FFD54A58C750DC1B313A",
+    "specification": {
+      "direction": "buy",
+      "quantity": {
+        "currency": "ETH",
+        "value": "21.32462959",
+        "counterparty": "rcA8X3TVMST1n3CJeAdGk1RdRCHii7N2h"
+      },
+      "totalPrice": {
+        "currency": "ETH",
+        "value": "21.26078339",
+        "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+      },
+      "passive": true
+    },
+    "outcome": {
+      "result": "tesSUCCESS",
+      "timestamp": "2017-05-26T02:49:32.000Z",
+      "fee": "0.000015",
+      "balanceChanges": {
+        "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN": [
+          {
+            "currency": "XRP",
+            "value": "-0.000015"
+          }
+        ]
+      },
+      "orderbookChanges": {
+        "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN": [
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "ETH",
+              "counterparty": "rcA8X3TVMST1n3CJeAdGk1RdRCHii7N2h",
+              "value": "21.41035674"
+            },
+            "totalPrice": {
+              "currency": "ETH",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "21.26078339"
+            },
+            "sequence": 1199017,
+            "status": "cancelled",
+            "makerExchangeRate": "1.007035175856706"
+          },
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "ETH",
+              "counterparty": "rcA8X3TVMST1n3CJeAdGk1RdRCHii7N2h",
+              "value": "21.32462959"
+            },
+            "totalPrice": {
+              "currency": "ETH",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "21.26078339"
+            },
+            "sequence": 1199048,
+            "status": "created",
+            "makerExchangeRate": "1.00300300317391"
+          }
+        ]
+      },
+      "ledgerVersion": 30030121,
+      "indexInLedger": 40
+    }
+  },
+  {
+    "type": "order",
+    "address": "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN",
+    "sequence": 1199045,
+    "id": "FC5C4051DC8D3639F9C504B173215E420B3D12C27248F0763F054CC513EBEDD8",
+    "specification": {
+      "direction": "buy",
+      "quantity": {
+        "currency": "BTC",
+        "value": "0.23416292",
+        "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+      },
+      "totalPrice": {
+        "currency": "BTC",
+        "value": "0.23252705",
+        "counterparty": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+      },
+      "passive": true
+    },
+    "outcome": {
+      "result": "tesSUCCESS",
+      "timestamp": "2017-05-26T02:49:32.000Z",
+      "fee": "0.000015",
+      "balanceChanges": {
+        "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN": [
+          {
+            "currency": "XRP",
+            "value": "-0.000015"
+          }
+        ]
+      },
+      "orderbookChanges": {
+        "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN": [
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "BTC",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "0.23322533"
+            },
+            "totalPrice": {
+              "currency": "BTC",
+              "counterparty": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+              "value": "0.23252705"
+            },
+            "sequence": 1199012,
+            "status": "cancelled",
+            "makerExchangeRate": "1.003003005456784"
+          },
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "BTC",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "0.23416292"
+            },
+            "totalPrice": {
+              "currency": "BTC",
+              "counterparty": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+              "value": "0.23252705"
+            },
+            "sequence": 1199045,
+            "status": "created",
+            "makerExchangeRate": "1.007035181498238"
+          }
+        ]
+      },
+      "ledgerVersion": 30030121,
+      "indexInLedger": 37
+    }
+  },
+  {
+    "type": "order",
+    "address": "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN",
+    "sequence": 1199044,
+    "id": "A3D75A93920746E37930FEBCA964CDE14D7C03458AC575EDBB3ECA370CC06EE3",
+    "specification": {
+      "direction": "buy",
+      "quantity": {
+        "currency": "BTC",
+        "value": "0.23322533",
+        "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+      },
+      "totalPrice": {
+        "currency": "BTC",
+        "value": "0.23252705",
+        "counterparty": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+      },
+      "passive": true
+    },
+    "outcome": {
+      "result": "tesSUCCESS",
+      "timestamp": "2017-05-26T02:49:32.000Z",
+      "fee": "0.000015",
+      "balanceChanges": {
+        "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN": [
+          {
+            "currency": "XRP",
+            "value": "-0.000015"
+          }
+        ]
+      },
+      "orderbookChanges": {
+        "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN": [
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "BTC",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "0.23322533"
+            },
+            "totalPrice": {
+              "currency": "BTC",
+              "counterparty": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+              "value": "0.23252705"
+            },
+            "sequence": 1199044,
+            "status": "created",
+            "makerExchangeRate": "1.003003005456784"
+          },
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "BTC",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "0.23416292"
+            },
+            "totalPrice": {
+              "currency": "BTC",
+              "counterparty": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+              "value": "0.23252705"
+            },
+            "sequence": 1199013,
+            "status": "cancelled",
+            "makerExchangeRate": "1.007035181498238"
+          }
+        ]
+      },
+      "ledgerVersion": 30030121,
+      "indexInLedger": 36
+    }
+  },
+  {
+    "type": "order",
+    "address": "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN",
+    "sequence": 1199043,
+    "id": "A004F5CCC08AF43481077AAA7C0E628991615301E9A266714479279B4085F893",
+    "specification": {
+      "direction": "buy",
+      "quantity": {
+        "currency": "BTC",
+        "value": "0.84941581",
+        "counterparty": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+      },
+      "totalPrice": {
+        "currency": "BTC",
+        "value": "0.84348177",
+        "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+      },
+      "passive": true
+    },
+    "outcome": {
+      "result": "tesSUCCESS",
+      "timestamp": "2017-05-26T02:49:32.000Z",
+      "fee": "0.000015",
+      "balanceChanges": {
+        "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN": [
+          {
+            "currency": "XRP",
+            "value": "-0.000015"
+          }
+        ]
+      },
+      "orderbookChanges": {
+        "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN": [
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "BTC",
+              "counterparty": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+              "value": "0.84601474"
+            },
+            "totalPrice": {
+              "currency": "BTC",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "0.84348177"
+            },
+            "sequence": 1199010,
+            "status": "cancelled",
+            "makerExchangeRate": "1.003002993176722"
+          },
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "BTC",
+              "counterparty": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+              "value": "0.84941581"
+            },
+            "totalPrice": {
+              "currency": "BTC",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "0.84348177"
+            },
+            "sequence": 1199043,
+            "status": "created",
+            "makerExchangeRate": "1.007035172793361"
+          }
+        ]
+      },
+      "ledgerVersion": 30030121,
+      "indexInLedger": 35
+    }
+  },
+  {
+    "type": "order",
+    "address": "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN",
+    "sequence": 1199042,
+    "id": "AB71F3DED891934189EBF84796D55034CBC9B530EF124813D4F76020AB83BBDA",
+    "specification": {
+      "direction": "buy",
+      "quantity": {
+        "currency": "BTC",
+        "value": "0.84601474",
+        "counterparty": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+      },
+      "totalPrice": {
+        "currency": "BTC",
+        "value": "0.84348177",
+        "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+      },
+      "passive": true
+    },
+    "outcome": {
+      "result": "tesSUCCESS",
+      "timestamp": "2017-05-26T02:49:32.000Z",
+      "fee": "0.000015",
+      "balanceChanges": {
+        "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN": [
+          {
+            "currency": "XRP",
+            "value": "-0.000015"
+          }
+        ]
+      },
+      "orderbookChanges": {
+        "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN": [
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "BTC",
+              "counterparty": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+              "value": "0.84601474"
+            },
+            "totalPrice": {
+              "currency": "BTC",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "0.84348177"
+            },
+            "sequence": 1199042,
+            "status": "created",
+            "makerExchangeRate": "1.003002993176722"
+          },
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "BTC",
+              "counterparty": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+              "value": "0.84941581"
+            },
+            "totalPrice": {
+              "currency": "BTC",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "0.84348177"
+            },
+            "sequence": 1199011,
+            "status": "cancelled",
+            "makerExchangeRate": "1.007035172793361"
+          }
+        ]
+      },
+      "ledgerVersion": 30030121,
+      "indexInLedger": 34
+    }
+  },
+  {
+    "type": "order",
+    "address": "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN",
+    "sequence": 1199041,
+    "id": "81FA3CD5D53D60E2561752956130CA1AC94113A8D5173ED6FD2670FAA9E06E59",
+    "specification": {
+      "direction": "buy",
+      "quantity": {
+        "currency": "BTC",
+        "value": "0.84941581",
+        "counterparty": "rchGBxcD1A1C2tdxF6papQYZ8kjRKMYcL"
+      },
+      "totalPrice": {
+        "currency": "BTC",
+        "value": "0.84348177",
+        "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+      },
+      "passive": true
+    },
+    "outcome": {
+      "result": "tesSUCCESS",
+      "timestamp": "2017-05-26T02:49:32.000Z",
+      "fee": "0.000015",
+      "balanceChanges": {
+        "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN": [
+          {
+            "currency": "XRP",
+            "value": "-0.000015"
+          }
+        ]
+      },
+      "orderbookChanges": {
+        "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN": [
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "BTC",
+              "counterparty": "rchGBxcD1A1C2tdxF6papQYZ8kjRKMYcL",
+              "value": "0.84601474"
+            },
+            "totalPrice": {
+              "currency": "BTC",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "0.84348177"
+            },
+            "sequence": 1199008,
+            "status": "cancelled",
+            "makerExchangeRate": "1.003002993176722"
+          },
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "BTC",
+              "counterparty": "rchGBxcD1A1C2tdxF6papQYZ8kjRKMYcL",
+              "value": "0.84941581"
+            },
+            "totalPrice": {
+              "currency": "BTC",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "0.84348177"
+            },
+            "sequence": 1199041,
+            "status": "created",
+            "makerExchangeRate": "1.007035172793361"
+          }
+        ]
+      },
+      "ledgerVersion": 30030121,
+      "indexInLedger": 33
+    }
+  },
+  {
+    "type": "order",
+    "address": "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN",
+    "sequence": 1199040,
+    "id": "35AA3D9F0D9A28AD80FB750131B81E5704245EF952898048B9FC15EC128AD4A0",
+    "specification": {
+      "direction": "buy",
+      "quantity": {
+        "currency": "BTC",
+        "value": "0.84601474",
+        "counterparty": "rchGBxcD1A1C2tdxF6papQYZ8kjRKMYcL"
+      },
+      "totalPrice": {
+        "currency": "BTC",
+        "value": "0.84348177",
+        "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+      },
+      "passive": true
+    },
+    "outcome": {
+      "result": "tesSUCCESS",
+      "timestamp": "2017-05-26T02:49:32.000Z",
+      "fee": "0.000015",
+      "balanceChanges": {
+        "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN": [
+          {
+            "currency": "XRP",
+            "value": "-0.000015"
+          }
+        ]
+      },
+      "orderbookChanges": {
+        "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN": [
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "BTC",
+              "counterparty": "rchGBxcD1A1C2tdxF6papQYZ8kjRKMYcL",
+              "value": "0.84941581"
+            },
+            "totalPrice": {
+              "currency": "BTC",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "0.84348177"
+            },
+            "sequence": 1199009,
+            "status": "cancelled",
+            "makerExchangeRate": "1.007035172793361"
+          },
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "BTC",
+              "counterparty": "rchGBxcD1A1C2tdxF6papQYZ8kjRKMYcL",
+              "value": "0.84601474"
+            },
+            "totalPrice": {
+              "currency": "BTC",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "0.84348177"
+            },
+            "sequence": 1199040,
+            "status": "created",
+            "makerExchangeRate": "1.003002993176722"
+          }
+        ]
+      },
+      "ledgerVersion": 30030121,
+      "indexInLedger": 32
+    }
+  },
+  {
+    "type": "order",
+    "address": "rH3uSRUJYoJhK4kL9x1mzUhDimKE2n3oT6",
+    "sequence": 12644021,
+    "id": "A6D982AF8D4B93E78DE46141DE09E47C4519AE0AEF422FA952475A100F0A84F6",
+    "specification": {
+      "direction": "buy",
+      "quantity": {
+        "currency": "USD",
+        "value": "4371.624560585415",
+        "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+      },
+      "totalPrice": {
+        "currency": "XRP",
+        "value": "12568.388556"
+      }
+    },
+    "outcome": {
+      "result": "tesSUCCESS",
+      "timestamp": "2017-05-26T02:49:32.000Z",
+      "fee": "0.000063",
+      "balanceChanges": {
+        "rH3uSRUJYoJhK4kL9x1mzUhDimKE2n3oT6": [
+          {
+            "currency": "XRP",
+            "value": "-0.000063"
+          }
+        ]
+      },
+      "orderbookChanges": {
+        "rH3uSRUJYoJhK4kL9x1mzUhDimKE2n3oT6": [
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "USD",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "4371.624560585415"
+            },
+            "totalPrice": {
+              "currency": "XRP",
+              "value": "12568.388556"
+            },
+            "sequence": 12644021,
+            "status": "created",
+            "makerExchangeRate": "0.3478269740871794"
+          },
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "USD",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "4371.799429939551"
+            },
+            "totalPrice": {
+              "currency": "XRP",
+              "value": "12568.388556"
+            },
+            "sequence": 12644016,
+            "status": "cancelled",
+            "makerExchangeRate": "0.3478408875139769"
+          }
+        ]
+      },
+      "ledgerVersion": 30030121,
+      "indexInLedger": 26
+    }
+  },
+  {
+    "type": "order",
+    "address": "rH3uSRUJYoJhK4kL9x1mzUhDimKE2n3oT6",
+    "sequence": 12644019,
+    "id": "DF917C1966758AD8E9948AB14AA861ED51165FEC971AB3B209ED457A5C04B8F1",
+    "specification": {
+      "direction": "buy",
+      "quantity": {
+        "currency": "ETH",
+        "value": "60.24782609067964",
+        "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+      },
+      "totalPrice": {
+        "currency": "XRP",
+        "value": "38283.640296"
+      }
+    },
+    "outcome": {
+      "result": "tesSUCCESS",
+      "timestamp": "2017-05-26T02:49:32.000Z",
+      "fee": "0.000063",
+      "balanceChanges": {
+        "rH3uSRUJYoJhK4kL9x1mzUhDimKE2n3oT6": [
+          {
+            "currency": "XRP",
+            "value": "-0.000063"
+          }
+        ]
+      },
+      "orderbookChanges": {
+        "rH3uSRUJYoJhK4kL9x1mzUhDimKE2n3oT6": [
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "ETH",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "60.24782609067964"
+            },
+            "totalPrice": {
+              "currency": "XRP",
+              "value": "38283.640296"
+            },
+            "sequence": 12644019,
+            "status": "created",
+            "makerExchangeRate": "0.001573722499345876"
+          },
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "ETH",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "60.24903106527606"
+            },
+            "totalPrice": {
+              "currency": "XRP",
+              "value": "38283.640296"
+            },
+            "sequence": 12644015,
+            "status": "cancelled",
+            "makerExchangeRate": "0.001573753974267987"
+          }
+        ]
+      },
+      "ledgerVersion": 30030121,
+      "indexInLedger": 24
+    }
+  },
+  {
+    "type": "order",
+    "address": "rEr3hxu5aim5tDWwH7H8BK47K91tR8c7FM",
+    "sequence": 46043514,
+    "id": "69A66E671CF57F89DC55ADD9798ACE757F49FA3E010AC1E7BC3151BB7CF09211",
+    "specification": {
+      "direction": "buy",
+      "quantity": {
+        "currency": "USD",
+        "value": "1391.335722924042",
+        "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+      },
+      "totalPrice": {
+        "currency": "XRP",
+        "value": "4000"
+      }
+    },
+    "outcome": {
+      "result": "tesSUCCESS",
+      "timestamp": "2017-05-26T02:49:32.000Z",
+      "fee": "0.000246",
+      "balanceChanges": {
+        "rEr3hxu5aim5tDWwH7H8BK47K91tR8c7FM": [
+          {
+            "currency": "XRP",
+            "value": "-0.000246"
+          }
+        ]
+      },
+      "orderbookChanges": {
+        "rEr3hxu5aim5tDWwH7H8BK47K91tR8c7FM": [
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "USD",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "1391.363550055907"
+            },
+            "totalPrice": {
+              "currency": "XRP",
+              "value": "4000"
+            },
+            "sequence": 46043512,
+            "status": "cancelled",
+            "makerExchangeRate": "0.3478408875139768"
+          },
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "USD",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "1391.335722924042"
+            },
+            "totalPrice": {
+              "currency": "XRP",
+              "value": "4000"
+            },
+            "sequence": 46043514,
+            "status": "created",
+            "makerExchangeRate": "0.3478339307310105"
+          }
+        ]
+      },
+      "ledgerVersion": 30030121,
+      "indexInLedger": 22
+    }
+  },
+  {
+    "type": "order",
+    "address": "rhS2H7ETM3wBkFETvYycoUm9FEDYi44Pg4",
+    "sequence": 2229459,
+    "id": "00F34D5632819602A3D62C43BF3345D8D557012D00FF04F115D8AAC74B151FF2",
+    "specification": {
+      "direction": "buy",
+      "quantity": {
+        "currency": "ETH",
+        "value": "47.21214710184733",
+        "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+      },
+      "totalPrice": {
+        "currency": "XRP",
+        "value": "30000"
+      }
+    },
+    "outcome": {
+      "result": "tesSUCCESS",
+      "timestamp": "2017-05-26T02:49:32.000Z",
+      "fee": "0.00049",
+      "balanceChanges": {
+        "rhS2H7ETM3wBkFETvYycoUm9FEDYi44Pg4": [
+          {
+            "currency": "XRP",
+            "value": "-0.00049"
+          }
+        ]
+      },
+      "orderbookChanges": {
+        "rhS2H7ETM3wBkFETvYycoUm9FEDYi44Pg4": [
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "ETH",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "47.21309135895321"
+            },
+            "totalPrice": {
+              "currency": "XRP",
+              "value": "30000"
+            },
+            "sequence": 2229453,
+            "status": "cancelled",
+            "makerExchangeRate": "0.001573769711965107"
+          },
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "ETH",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "47.21214710184733"
+            },
+            "totalPrice": {
+              "currency": "XRP",
+              "value": "30000"
+            },
+            "sequence": 2229459,
+            "status": "created",
+            "makerExchangeRate": "0.001573738236728244"
+          }
+        ]
+      },
+      "ledgerVersion": 30030121,
+      "indexInLedger": 12
+    }
+  },
+  {
+    "type": "order",
+    "address": "rhS2H7ETM3wBkFETvYycoUm9FEDYi44Pg4",
+    "sequence": 2229458,
+    "id": "DF54E4345B00E5394F5C7F35018F1C2EC8511ACD117838EF51665D5920A38677",
+    "specification": {
+      "direction": "buy",
+      "quantity": {
+        "currency": "USD",
+        "value": "2139.32219727611",
+        "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+      },
+      "totalPrice": {
+        "currency": "XRP",
+        "value": "6150.351116"
+      }
+    },
+    "outcome": {
+      "result": "tesSUCCESS",
+      "timestamp": "2017-05-26T02:49:32.000Z",
+      "fee": "0.00049",
+      "balanceChanges": {
+        "rhS2H7ETM3wBkFETvYycoUm9FEDYi44Pg4": [
+          {
+            "currency": "XRP",
+            "value": "-0.00049"
+          }
+        ]
+      },
+      "orderbookChanges": {
+        "rhS2H7ETM3wBkFETvYycoUm9FEDYi44Pg4": [
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "USD",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "2139.407772303367"
+            },
+            "totalPrice": {
+              "currency": "XRP",
+              "value": "6150.351116"
+            },
+            "sequence": 2229452,
+            "status": "cancelled",
+            "makerExchangeRate": "0.3478513229493103"
+          },
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "USD",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "2139.32219727611"
+            },
+            "totalPrice": {
+              "currency": "XRP",
+              "value": "6150.351116"
+            },
+            "sequence": 2229458,
+            "status": "created",
+            "makerExchangeRate": "0.3478374091051016"
+          }
+        ]
+      },
+      "ledgerVersion": 30030121,
+      "indexInLedger": 11
+    }
+  },
+  {
+    "type": "order",
+    "address": "rhS2H7ETM3wBkFETvYycoUm9FEDYi44Pg4",
+    "sequence": 2229457,
+    "id": "79C8BE75504212B7D8691B10AC92B9B23F6801F28450B56B7C7A496CA96B4BA5",
+    "specification": {
+      "direction": "buy",
+      "quantity": {
+        "currency": "JPY",
+        "value": "50825.70697269635",
+        "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+      },
+      "totalPrice": {
+        "currency": "XRP",
+        "value": "1500"
+      }
+    },
+    "outcome": {
+      "result": "tesSUCCESS",
+      "timestamp": "2017-05-26T02:49:32.000Z",
+      "fee": "0.00049",
+      "balanceChanges": {
+        "rhS2H7ETM3wBkFETvYycoUm9FEDYi44Pg4": [
+          {
+            "currency": "XRP",
+            "value": "-0.00049"
+          }
+        ]
+      },
+      "orderbookChanges": {
+        "rhS2H7ETM3wBkFETvYycoUm9FEDYi44Pg4": [
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "JPY",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "50825.70697269635"
+            },
+            "totalPrice": {
+              "currency": "XRP",
+              "value": "1500"
+            },
+            "sequence": 2229457,
+            "status": "created",
+            "makerExchangeRate": "33.88380464846423"
+          },
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "JPY",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "50826.72350208373"
+            },
+            "totalPrice": {
+              "currency": "XRP",
+              "value": "1500"
+            },
+            "sequence": 2229451,
+            "status": "cancelled",
+            "makerExchangeRate": "33.88448233472248"
+          }
+        ]
+      },
+      "ledgerVersion": 30030121,
+      "indexInLedger": 10
+    }
+  },
+  {
+    "type": "order",
+    "address": "rsPrWzpYp5jj278vHVgp1tMvbKdHAZGFbi",
+    "sequence": 6022908,
+    "id": "466928BB37304A66215896161285A94EBC80EA11B12C21DCB058C9C27C51DB06",
+    "specification": {
+      "direction": "buy",
+      "quantity": {
+        "currency": "LTC",
+        "value": "139.9692032337836",
+        "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+      },
+      "totalPrice": {
+        "currency": "XRP",
+        "value": "7000"
+      }
+    },
+    "outcome": {
+      "result": "tesSUCCESS",
+      "timestamp": "2017-05-26T02:49:32.000Z",
+      "fee": "0.00049",
+      "balanceChanges": {
+        "rsPrWzpYp5jj278vHVgp1tMvbKdHAZGFbi": [
+          {
+            "currency": "XRP",
+            "value": "-0.00049"
+          }
+        ]
+      },
+      "orderbookChanges": {
+        "rsPrWzpYp5jj278vHVgp1tMvbKdHAZGFbi": [
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "LTC",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "139.9720026598396"
+            },
+            "totalPrice": {
+              "currency": "XRP",
+              "value": "7000"
+            },
+            "sequence": 6022897,
+            "status": "cancelled",
+            "makerExchangeRate": "0.01999600037997709"
+          },
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "LTC",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "139.9692032337836"
+            },
+            "totalPrice": {
+              "currency": "XRP",
+              "value": "7000"
+            },
+            "sequence": 6022908,
+            "status": "created",
+            "makerExchangeRate": "0.01999560046196909"
+          }
+        ]
+      },
+      "ledgerVersion": 30030121,
+      "indexInLedger": 8
+    }
+  },
+  {
+    "type": "order",
+    "address": "rsPrWzpYp5jj278vHVgp1tMvbKdHAZGFbi",
+    "sequence": 6022905,
+    "id": "7D6C69B5E85A7D2A0964B891BD417679BA018A722FDBFFF8B57603553B9D37F7",
+    "specification": {
+      "direction": "buy",
+      "quantity": {
+        "currency": "USD",
+        "value": "2139.279411046097",
+        "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+      },
+      "totalPrice": {
+        "currency": "XRP",
+        "value": "6150.351116"
+      }
+    },
+    "outcome": {
+      "result": "tesSUCCESS",
+      "timestamp": "2017-05-26T02:49:32.000Z",
+      "fee": "0.00049",
+      "balanceChanges": {
+        "rsPrWzpYp5jj278vHVgp1tMvbKdHAZGFbi": [
+          {
+            "currency": "XRP",
+            "value": "-0.00049"
+          }
+        ]
+      },
+      "orderbookChanges": {
+        "rsPrWzpYp5jj278vHVgp1tMvbKdHAZGFbi": [
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "USD",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "2139.364984361862"
+            },
+            "totalPrice": {
+              "currency": "XRP",
+              "value": "6150.351116"
+            },
+            "sequence": 6022901,
+            "status": "cancelled",
+            "makerExchangeRate": "0.3478443659576365"
+          },
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "USD",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "2139.279411046097"
+            },
+            "totalPrice": {
+              "currency": "XRP",
+              "value": "6150.351116"
+            },
+            "sequence": 6022905,
+            "status": "created",
+            "makerExchangeRate": "0.3478304523917033"
+          }
+        ]
+      },
+      "ledgerVersion": 30030121,
+      "indexInLedger": 5
+    }
+  },
+  {
+    "type": "order",
+    "address": "rsPrWzpYp5jj278vHVgp1tMvbKdHAZGFbi",
+    "sequence": 6022904,
+    "id": "7420161C7E90B04AADE4054412692CCE1037A7E6D1CAF316422E2D8B658346F2",
+    "specification": {
+      "direction": "buy",
+      "quantity": {
+        "currency": "JPY",
+        "value": "50825.70697269635",
+        "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+      },
+      "totalPrice": {
+        "currency": "XRP",
+        "value": "1500"
+      }
+    },
+    "outcome": {
+      "result": "tesSUCCESS",
+      "timestamp": "2017-05-26T02:49:32.000Z",
+      "fee": "0.00049",
+      "balanceChanges": {
+        "rsPrWzpYp5jj278vHVgp1tMvbKdHAZGFbi": [
+          {
+            "currency": "XRP",
+            "value": "-0.00049"
+          }
+        ]
+      },
+      "orderbookChanges": {
+        "rsPrWzpYp5jj278vHVgp1tMvbKdHAZGFbi": [
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "JPY",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "50825.70697269635"
+            },
+            "totalPrice": {
+              "currency": "XRP",
+              "value": "1500"
+            },
+            "sequence": 6022904,
+            "status": "created",
+            "makerExchangeRate": "33.88380464846423"
+          },
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "JPY",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "50826.72350208373"
+            },
+            "totalPrice": {
+              "currency": "XRP",
+              "value": "1500"
+            },
+            "sequence": 6022900,
+            "status": "cancelled",
+            "makerExchangeRate": "33.88448233472248"
+          }
+        ]
+      },
+      "ledgerVersion": 30030121,
+      "indexInLedger": 4
+    }
+  },
+  {
+    "type": "order",
+    "address": "rEBhG5cxEcmM9rTwZgsMyS7Hxs3xdLuJ6",
+    "sequence": 1460488,
+    "id": "A394E91E5F571623C4EEF81D206A2B862F5CA3C9AA5C12C05AC027A0DE4EB1F0",
+    "specification": {
+      "direction": "buy",
+      "quantity": {
+        "currency": "BTC",
+        "value": "0.9205535326477501",
+        "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+      },
+      "totalPrice": {
+        "currency": "BTC",
+        "value": "0.9",
+        "counterparty": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+      }
+    },
+    "outcome": {
+      "result": "tesSUCCESS",
+      "timestamp": "2017-05-26T02:49:32.000Z",
+      "fee": "0.000011",
+      "balanceChanges": {
+        "rEBhG5cxEcmM9rTwZgsMyS7Hxs3xdLuJ6": [
+          {
+            "currency": "XRP",
+            "value": "-0.000011"
+          }
+        ]
+      },
+      "orderbookChanges": {
+        "rEBhG5cxEcmM9rTwZgsMyS7Hxs3xdLuJ6": [
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "BTC",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "1.231276043637"
+            },
+            "totalPrice": {
+              "currency": "BTC",
+              "counterparty": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+              "value": "1.2"
+            },
+            "sequence": 1460484,
+            "status": "cancelled",
+            "makerExchangeRate": "1.0260633696975"
+          },
+          {
+            "direction": "buy",
+            "quantity": {
+              "currency": "BTC",
+              "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+              "value": "0.9205535326477501"
+            },
+            "totalPrice": {
+              "currency": "BTC",
+              "counterparty": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+              "value": "0.9"
+            },
+            "sequence": 1460488,
+            "status": "created",
+            "makerExchangeRate": "1.0228372584975"
+          }
+        ]
+      },
+      "ledgerVersion": 30030121,
+      "indexInLedger": 0
+    }
+  }
+]
+{
+  "type": "order",
+  "address": "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN",
+  "sequence": 1199059,
+  "id": "FEE2585DA72AC9B623C2CEE0E97AEE0C5501F7DA26A13B84A86FDC2E9CA056BC",
+  "specification": {
+    "direction": "buy",
+    "quantity": {
+      "currency": "JPY",
+      "value": "150753.76884422",
+      "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+    },
+    "totalPrice": {
+      "currency": "CNY",
+      "value": "9202.75684057",
+      "counterparty": "razqQKzJRdB4UxFPWf5NEpEG3WMkmwgcXA"
+    },
+    "passive": true
+  },
+  "outcome": {
+    "result": "tesSUCCESS",
+    "timestamp": "2017-05-26T02:49:32.000Z",
+    "fee": "0.000015",
+    "balanceChanges": {
+      "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN": [
+        {
+          "currency": "XRP",
+          "value": "-0.000015"
+        }
+      ]
+    },
+    "orderbookChanges": {
+      "rK3Grwc6uQS9G2Mfff1S5UUdnttCRVwtEN": [
+        {
+          "direction": "buy",
+          "quantity": {
+            "currency": "JPY",
+            "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+            "value": "150753.76884422"
+          },
+          "totalPrice": {
+            "currency": "CNY",
+            "counterparty": "razqQKzJRdB4UxFPWf5NEpEG3WMkmwgcXA",
+            "value": "9202.75684057"
+          },
+          "sequence": 1199059,
+          "status": "created",
+          "makerExchangeRate": "16.38137043669651"
+        },
+        {
+          "direction": "buy",
+          "quantity": {
+            "currency": "JPY",
+            "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+            "value": "150300.6012024"
+          },
+          "totalPrice": {
+            "currency": "CNY",
+            "counterparty": "razqQKzJRdB4UxFPWf5NEpEG3WMkmwgcXA",
+            "value": "9203.80047506"
+          },
+          "sequence": 1199026,
+          "status": "cancelled",
+          "makerExchangeRate": "16.33027591261643"
+        }
+      ]
+    },
+    "ledgerVersion": 30030121,
+    "indexInLedger": 51
+  }
+}
+connected
+{
+  "type": "order",
+  "address": "rUp8CvtneUUL6qYaxfZwUHg2cwYuo5jugG",
+  "sequence": 3394321,
+  "id": "D5B6AEBCBB0CCB54918E5125D0EC62EFAA93C7DD95EF6C8B59DAF5D321980D24",
+  "specification": {
+    "direction": "buy",
+    "quantity": {
+      "currency": "USD",
+      "value": "2800",
+      "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+    },
+    "totalPrice": {
+      "currency": "JPY",
+      "value": "282203.212772327",
+      "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+    }
+  },
+  "outcome": {
+    "result": "tesSUCCESS",
+    "timestamp": "2017-05-26T03:24:50.000Z",
+    "fee": "0.000011",
+    "balanceChanges": {
+      "rUp8CvtneUUL6qYaxfZwUHg2cwYuo5jugG": [
+        {
+          "currency": "XRP",
+          "value": "-0.000011"
+        }
+      ]
+    },
+    "orderbookChanges": {
+      "rUp8CvtneUUL6qYaxfZwUHg2cwYuo5jugG": [
+        {
+          "direction": "buy",
+          "quantity": {
+            "currency": "USD",
+            "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+            "value": "2800"
+          },
+          "totalPrice": {
+            "currency": "JPY",
+            "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+            "value": "282197.568736727"
+          },
+          "sequence": 3394320,
+          "status": "cancelled",
+          "makerExchangeRate": "0.009922126588596616"
+        },
+        {
+          "direction": "buy",
+          "quantity": {
+            "currency": "USD",
+            "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+            "value": "2800"
+          },
+          "totalPrice": {
+            "currency": "JPY",
+            "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+            "value": "282203.212772327"
+          },
+          "sequence": 3394321,
+          "status": "created",
+          "makerExchangeRate": "0.009921928147072355"
+        }
+      ]
+    },
+    "ledgerVersion": 30030722,
+    "indexInLedger": 37
+  }
+}

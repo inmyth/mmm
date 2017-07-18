@@ -1,0 +1,4387 @@
+Subscribed to account raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf
+XRP/JPY
+
+// buy order consumed
+[{
+  "type": "order",
+  "address": "raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf",
+  "sequence": 163,
+  "id": "069163C5890909302342D62701B2F22C0B856EA58EAB64EE6EE9553C2DF1446C",
+  "specification": {
+    "direction": "buy",
+    "quantity": {
+      "currency": "XRP",
+      "value": "5"
+    },
+    "totalPrice": {
+      "currency": "JPY",
+      "value": "132.5",
+      "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+    }
+  },
+  "outcome": {
+    "result": "tesSUCCESS",
+    "timestamp": "2017-05-31T03:14:21.000Z",
+    "fee": "0.000012",
+    "balanceChanges": {
+      "raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+        "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+        "currency": "JPY",
+        "value": "-126.57439782235"
+      }, {
+        "currency": "XRP",
+        "value": "4.999988"
+      }],
+      "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS": [{
+        "counterparty": "raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf",
+        "currency": "JPY",
+        "value": "126.57439782235"
+      }, {
+        "counterparty": "rp6XNsJ4at9ArRHLXWnWP8ovRLwhXBUmnt",
+        "currency": "JPY",
+        "value": "-126.32175431372"
+      }],
+      "rp6XNsJ4at9ArRHLXWnWP8ovRLwhXBUmnt": [{
+        "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+        "currency": "JPY",
+        "value": "126.32175431372"
+      }, {
+        "currency": "XRP",
+        "value": "-5"
+      }]
+    },
+    "orderbookChanges": {
+      "rp6XNsJ4at9ArRHLXWnWP8ovRLwhXBUmnt": [{
+        "direction": "sell",
+        "quantity": {
+          "currency": "XRP",
+          "value": "5"
+        },
+        "totalPrice": {
+          "currency": "JPY",
+          "counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+          "value": "126.321754313723"
+        },
+        "sequence": 393961,
+        "status": "partially-filled",
+        "makerExchangeRate": "25.26435086274464"
+      }]
+    },
+    "ledgerVersion": 30150706,
+    "indexInLedger": 3
+  }
+}]
+connected
+Subscribed to account raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[{"type":"order","address":"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf","sequence":164,"id":"9B8E786FBF58ADC9BC0030CC7AD87D48B91F86B9FB23E06174DC1874841C5D35","specification":{"direction":"buy","quantity":{"currency":"XRP","value":"5"},"totalPrice":{"currency":"JPY","value":"135","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"}},"outcome":{"result":"tesSUCCESS","timestamp":"2017-05-31T03:19:21.000Z","fee":"0.00012","balanceChanges":{"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"-125.158258868318"},{"currency":"XRP","value":"4.99988"}],"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS":[{"counterparty":"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf","currency":"JPY","value":"125.158258868318"},{"counterparty":"rG7eucYLyK39JjptdTksiKKdGEPGSFPeW3","currency":"JPY","value":"-124.9084419843498"}],"rG7eucYLyK39JjptdTksiKKdGEPGSFPeW3":[{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"124.9084419843498"},{"currency":"XRP","value":"-5"}]},"orderbookChanges":{"rG7eucYLyK39JjptdTksiKKdGEPGSFPeW3":[{"direction":"sell","quantity":{"currency":"XRP","value":"5"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"124.90844198434"},"sequence":8398,"status":"partially-filled","makerExchangeRate":"24.98168839686996"}]},"ledgerVersion":30150785,"indexInLedger":3}}]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[{"type":"order","address":"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf","sequence":165,"id":"BDF020B8873785F9AA4883E73526FCC6159D76FCE4397479D84C663E18617214","specification":{"direction":"buy","quantity":{"currency":"XRP","value":"5"},"totalPrice":{"currency":"JPY","value":"125","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"}},"outcome":{"result":"tesSUCCESS","timestamp":"2017-05-31T03:20:10.000Z","fee":"0.000012","balanceChanges":{"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"-124.736525012649"},{"currency":"XRP","value":"4.999988"}],"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS":[{"counterparty":"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf","currency":"JPY","value":"124.736525012649"},{"counterparty":"rG7eucYLyK39JjptdTksiKKdGEPGSFPeW3","currency":"JPY","value":"-124.487549912823"}],"rG7eucYLyK39JjptdTksiKKdGEPGSFPeW3":[{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"124.487549912823"},{"currency":"XRP","value":"-5"}]},"orderbookChanges":{"rG7eucYLyK39JjptdTksiKKdGEPGSFPeW3":[{"direction":"sell","quantity":{"currency":"XRP","value":"5"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"124.48754991282"},"sequence":8401,"status":"partially-filled","makerExchangeRate":"24.89750998256477"}]},"ledgerVersion":30150797,"indexInLedger":2}}]
+[]
+[]
+connected
+Subscribed to account raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[{"type":"order","address":"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf","sequence":167,"id":"67F0AC88071874137F215A2AA038EDD70142A0AF83A45DC5338177EE1EB0BF67","specification":{"direction":"buy","quantity":{"currency":"XRP","value":"2"},"totalPrice":{"currency":"JPY","value":"49.516","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"}},"outcome":{"result":"tesSUCCESS","timestamp":"2017-05-31T03:41:21.000Z","fee":"0.00012","balanceChanges":{"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"currency":"XRP","value":"-0.00012"}]},"orderbookChanges":{"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"direction":"buy","quantity":{"currency":"XRP","value":"2"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"49.516"},"sequence":167,"status":"created","makerExchangeRate":"0.04039098473220777"}]},"ledgerVersion":30151134,"indexInLedger":2}}]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[{"type":"order","address":"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf","sequence":168,"id":"F3D21FE302294A83C11806DDAAF8DCA00A67D18EB40E76E4514FCE6031FF1234","specification":{"direction":"buy","quantity":{"currency":"XRP","value":"5"},"totalPrice":{"currency":"JPY","value":"123.855","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"}},"outcome":{"result":"tesSUCCESS","timestamp":"2017-05-31T03:47:21.000Z","fee":"0.00012","balanceChanges":{"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"currency":"XRP","value":"-0.00012"}]},"orderbookChanges":{"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"direction":"buy","quantity":{"currency":"XRP","value":"5"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"123.855"},"sequence":168,"status":"created","makerExchangeRate":"0.04036978725122118"}]},"ledgerVersion":30151229,"indexInLedger":4}}]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[{"type":"order","address":"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf","sequence":170,"id":"C29B3C5FC2328D054F1469EBC2C86A06C26548714D77F12C008A7DA4B984837B","specification":{"direction":"sell","quantity":{"currency":"XRP","value":"5"},"totalPrice":{"currency":"JPY","value":"127.15","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"}},"outcome":{"result":"tesSUCCESS","timestamp":"2017-05-31T03:50:22.000Z","fee":"0.00012","balanceChanges":{"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"currency":"XRP","value":"-0.00012"}]},"orderbookChanges":{"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"direction":"buy","quantity":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"127.15"},"totalPrice":{"currency":"XRP","value":"5"},"sequence":170,"status":"created","makerExchangeRate":"25.43"}]},"ledgerVersion":30151278,"indexInLedger":34}}]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[{"type":"order","address":"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf","sequence":171,"id":"CF3D0F7CBD227ED99B0E45653F6249C6283CA7ACAF2740398BFDAD30276827B0","specification":{"direction":"buy","quantity":{"currency":"XRP","value":"5"},"totalPrice":{"currency":"JPY","value":"123.8915","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"}},"outcome":{"result":"tesSUCCESS","timestamp":"2017-05-31T03:59:50.000Z","fee":"0.000012","balanceChanges":{"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"currency":"XRP","value":"-0.000012"}]},"orderbookChanges":{"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"direction":"buy","quantity":{"currency":"XRP","value":"5"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"123.8915"},"sequence":171,"status":"created","makerExchangeRate":"0.04035789380223824"}]},"ledgerVersion":30151429,"indexInLedger":47}}]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+connected
+Subscribed to account raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf
+[]
+[]
+[]
+[]
+[]
+[{"type":"order","address":"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf","sequence":172,"id":"6FCFABAC592C20AA5E55F081B1B11E991CB7F0FC50283AF90603A46C4962DE38","specification":{"direction":"buy","quantity":{"currency":"XRP","value":"5"},"totalPrice":{"currency":"JPY","value":"124.3999999999999","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"}},"outcome":{"result":"tesSUCCESS","timestamp":"2017-05-31T04:02:12.000Z","fee":"0.00012","balanceChanges":{"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"-124.393652250499"},{"currency":"XRP","value":"4.99988"}],"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS":[{"counterparty":"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf","currency":"JPY","value":"124.393652250499"},{"counterparty":"rp6XNsJ4at9ArRHLXWnWP8ovRLwhXBUmnt","currency":"JPY","value":"-124.145361527445"}],"rp6XNsJ4at9ArRHLXWnWP8ovRLwhXBUmnt":[{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"124.145361527445"},{"currency":"XRP","value":"-5"}]},"orderbookChanges":{"rp6XNsJ4at9ArRHLXWnWP8ovRLwhXBUmnt":[{"direction":"sell","quantity":{"currency":"XRP","value":"5"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"124.145361527445"},"sequence":394284,"status":"partially-filled","makerExchangeRate":"24.82907230548901"}]},"ledgerVersion":30151468,"indexInLedger":3}}]
+[]
+[]
+[]
+[]
+[{"type":"order","address":"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf","sequence":173,"id":"8AF19D924F01937203387F3DD933698C4A6704E9A90F3866588BA37411B5E4CA","specification":{"direction":"buy","quantity":{"currency":"XRP","value":"5"},"totalPrice":{"currency":"JPY","value":"123.8915","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"}},"outcome":{"result":"tesSUCCESS","timestamp":"2017-05-31T04:02:31.000Z","fee":"0.000012","balanceChanges":{"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"currency":"XRP","value":"-0.000012"}]},"orderbookChanges":{"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"direction":"buy","quantity":{"currency":"XRP","value":"5"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"123.8915"},"sequence":173,"status":"created","makerExchangeRate":"0.04035789380223824"}]},"ledgerVersion":30151473,"indexInLedger":0}}]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[{"type":"order","address":"rhRvHbtRbuk5xhm9NQzf854pG6AXgA7NsN","sequence":20141,"id":"1C21807F297BD2D2C61945F07402C5FDA620D7927C74B9C08EF555757FC76476","specification":{"direction":"sell","quantity":{"currency":"BTC","value":"0.0005","counterparty":"rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"},"totalPrice":{"currency":"JPY","value":"133.5","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"}},"outcome":{"result":"tesSUCCESS","timestamp":"2017-05-31T04:12:20.000Z","fee":"0.007753","balanceChanges":{"rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B":[{"counterparty":"rH9B5S1eG5sJNbBw3sVdnP9Md51q4H6jJY","currency":"BTC","value":"-0.0004614"},{"counterparty":"rhRvHbtRbuk5xhm9NQzf854pG6AXgA7NsN","currency":"BTC","value":"0.0004623228"}],"rH9B5S1eG5sJNbBw3sVdnP9Md51q4H6jJY":[{"counterparty":"rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B","currency":"BTC","value":"0.0004614"},{"currency":"XRP","value":"-5"}],"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"-124.139283"},{"currency":"XRP","value":"5"}],"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS":[{"counterparty":"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf","currency":"JPY","value":"124.139283"},{"counterparty":"rhRvHbtRbuk5xhm9NQzf854pG6AXgA7NsN","currency":"JPY","value":"-123.8915"}],"rhRvHbtRbuk5xhm9NQzf854pG6AXgA7NsN":[{"currency":"XRP","value":"-0.007753"},{"counterparty":"rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B","currency":"BTC","value":"-0.0004623228"},{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"123.8915"}]},"orderbookChanges":{"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"direction":"buy","quantity":{"currency":"XRP","value":"5"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"123.8915"},"sequence":173,"status":"filled","makerExchangeRate":"0.04035789380223824"}],"rhRvHbtRbuk5xhm9NQzf854pG6AXgA7NsN":[{"direction":"buy","quantity":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"10.3062"},"totalPrice":{"currency":"BTC","counterparty":"rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B","value":"0.0000386"},"sequence":20141,"status":"created","makerExchangeRate":"267000"}],"rH9B5S1eG5sJNbBw3sVdnP9Md51q4H6jJY":[{"direction":"buy","quantity":{"currency":"BTC","counterparty":"rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B","value":"0.0004614"},"totalPrice":{"currency":"XRP","value":"5"},"sequence":2869418,"status":"partially-filled","makerExchangeRate":"0.00009228"}]},"ledgerVersion":30151629,"indexInLedger":34}}]
+[]
+[]
+[]
+connected
+Subscribed to account raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf
+Ledger : 30151773
+[]
+Ledger : 30151774
+[]
+Ledger : 30151775
+[]
+Ledger : 30151776
+[]
+Ledger : 30151777
+[]
+Ledger : 30151778
+[]
+Ledger : 30151779
+[]
+Ledger : 30151780
+[]
+Ledger : 30151781
+[]
+Ledger : 30151782
+[]
+Ledger : 30151783
+[]
+Ledger : 30151784
+[]
+Ledger : 30151785
+[]
+Ledger : 30151786
+[]
+Ledger : 30151787
+[]
+Ledger : 30151788
+[]
+Ledger : 30151789
+[]
+Ledger : 30151790
+[]
+Ledger : 30151791
+[]
+Ledger : 30151792
+[]
+Ledger : 30151793
+[]
+Ledger : 30151794
+[{"type":"order","address":"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf","sequence":174,"id":"5C46D0EC7E4A5C654F6ACEF86860D7E9A44394566B894E0B7092B315972EDD61","specification":{"direction":"buy","quantity":{"currency":"XRP","value":"5"},"totalPrice":{"currency":"JPY","value":"121","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"}},"outcome":{"result":"tesSUCCESS","timestamp":"2017-05-31T04:22:30.000Z","fee":"0.000012","balanceChanges":{"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"currency":"XRP","value":"-0.000012"}]},"orderbookChanges":{"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"direction":"buy","quantity":{"currency":"XRP","value":"5"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"121"},"sequence":174,"status":"created","makerExchangeRate":"0.04132231404958677"}]},"ledgerVersion":30151794,"indexInLedger":0}}]
+Ledger : 30151795
+[]
+Ledger : 30151796
+[]
+Ledger : 30151797
+[]
+Ledger : 30151798
+[]
+Ledger : 30151799
+[]
+Ledger : 30151800
+[]
+Ledger : 30151801
+[]
+Ledger : 30151802
+[]
+Ledger : 30151803
+[]
+Ledger : 30151804
+[]
+Ledger : 30151805
+[]
+Ledger : 30151806
+[]
+Ledger : 30151807
+[]
+Ledger : 30151808
+[]
+Ledger : 30151809
+[{"type":"order","address":"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf","sequence":175,"id":"B225960D6F7B2BD442DFD53F5D409C9A9607C1BAEA072AD6A8FF59FC13834431","specification":{"direction":"buy","quantity":{"currency":"XRP","value":"2"},"totalPrice":{"currency":"JPY","value":"50","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"}},"outcome":{"result":"tesSUCCESS","timestamp":"2017-05-31T04:23:21.000Z","fee":"0.000012","balanceChanges":{"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"-49.740052990922"},{"currency":"XRP","value":"1.999988"}],"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS":[{"counterparty":"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf","currency":"JPY","value":"49.740052990922"},{"counterparty":"rp6XNsJ4at9ArRHLXWnWP8ovRLwhXBUmnt","currency":"JPY","value":"-49.64077144802"}],"rp6XNsJ4at9ArRHLXWnWP8ovRLwhXBUmnt":[{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"49.64077144802"},{"currency":"XRP","value":"-2"}]},"orderbookChanges":{"rp6XNsJ4at9ArRHLXWnWP8ovRLwhXBUmnt":[{"direction":"sell","quantity":{"currency":"XRP","value":"2"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"49.640771448026"},"sequence":394358,"status":"partially-filled","makerExchangeRate":"24.82038572401327"}]},"ledgerVersion":30151809,"indexInLedger":52}}]
+Ledger : 30151810
+[]
+Ledger : 30151811
+[]
+Ledger : 30151812
+[]
+Ledger : 30151813
+[]
+Ledger : 30151814
+[]
+Ledger : 30151815
+[]
+Ledger : 30151816
+[]
+Ledger : 30151817
+[]
+Ledger : 30151818
+[]
+Ledger : 30151819
+[]
+Ledger : 30151820
+[]
+Ledger : 30151821
+[]
+Ledger : 30151822
+[]
+Ledger : 30151823
+[]
+Ledger : 30151824
+[]
+Ledger : 30151825
+[]
+Ledger : 30151826
+[]
+Ledger : 30151827
+[]
+Ledger : 30151828
+[]
+Ledger : 30151829
+[]
+Ledger : 30151830
+[]
+Ledger : 30151831
+[]
+Ledger : 30151832
+[]
+Ledger : 30151833
+[]
+Ledger : 30151834
+[]
+Ledger : 30151835
+[]
+Ledger : 30151836
+[]
+Ledger : 30151837
+[]
+connected
+Subscribed to account raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf
+Ledger : 30151908
+[]
+Ledger : 30151909
+[]
+Ledger : 30151910
+[]
+Ledger : 30151911
+[]
+Ledger : 30151912
+[]
+Ledger : 30151913
+[]
+Ledger : 30151914
+[]
+Ledger : 30151915
+[]
+Ledger : 30151916
+[]
+Ledger : 30151917
+[]
+Ledger : 30151918
+[]
+Ledger : 30151919
+[]
+Ledger : 30151920
+[{"type":"order","address":"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf","sequence":176,"id":"D00C6799B6D1FCEE6D8CE7EEA8DE72117D1E3DA5AC9559F334F0E48E9F2B9031","specification":{"direction":"sell","quantity":{"currency":"XRP","value":"5"},"totalPrice":{"currency":"JPY","value":"123.5","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"}},"outcome":{"result":"tesSUCCESS","timestamp":"2017-05-31T04:30:21.000Z","fee":"0.000012","balanceChanges":{"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"currency":"XRP","value":"-0.000012"}]},"orderbookChanges":{"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"direction":"buy","quantity":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"123.5"},"totalPrice":{"currency":"XRP","value":"5"},"sequence":176,"status":"created","makerExchangeRate":"24.7"}]},"ledgerVersion":30151920,"indexInLedger":48}}]
+Ledger : 30151921
+[]
+Ledger : 30151922
+[]
+Ledger : 30151923
+[]
+Ledger : 30151924
+[]
+Ledger : 30151925
+[]
+Ledger : 30151926
+[]
+Ledger : 30151927
+[]
+Ledger : 30151928
+[]
+Ledger : 30151929
+[]
+Ledger : 30151930
+[]
+Ledger : 30151931
+[{"type":"order","address":"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf","sequence":177,"id":"8C51BFB798E6A10467AA0D44EEDF0CB342CB7455B8C002157D85926976F3FD35","specification":{"direction":"sell","quantity":{"currency":"XRP","value":"5"},"totalPrice":{"currency":"JPY","value":"115","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"}},"outcome":{"result":"tesSUCCESS","timestamp":"2017-05-31T04:31:01.000Z","fee":"0.00012","balanceChanges":{"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"118.5"},{"currency":"XRP","value":"-5.00012"}],"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS":[{"counterparty":"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf","currency":"JPY","value":"-118.5"},{"counterparty":"r3RLZqU958WkoU61LorHzXMDuSZMurJTin","currency":"JPY","value":"118.737"}],"r3RLZqU958WkoU61LorHzXMDuSZMurJTin":[{"currency":"XRP","value":"5"},{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"-118.737"}]},"orderbookChanges":{"r3RLZqU958WkoU61LorHzXMDuSZMurJTin":[{"direction":"buy","quantity":{"currency":"XRP","value":"5"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"118.5"},"sequence":28884,"status":"partially-filled","makerExchangeRate":"0.04219409282700422"}]},"ledgerVersion":30151931,"indexInLedger":30}}]
+Ledger : 30151932
+[]
+Ledger : 30151933
+[]
+Ledger : 30151934
+[]
+Ledger : 30151935
+[]
+Ledger : 30151936
+[]
+Ledger : 30151937
+[]
+Ledger : 30151938
+[]
+Ledger : 30151939
+[]
+Ledger : 30151940
+[]
+Ledger : 30151941
+[]
+Ledger : 30151942
+[]
+Ledger : 30151943
+[]
+Ledger : 30151944
+[]
+Ledger : 30151945
+[]
+Ledger : 30151946
+[]
+Ledger : 30151947
+[]
+Ledger : 30151948
+[]
+Ledger : 30151949
+[]
+Ledger : 30151950
+[]
+Ledger : 30151951
+[]
+Ledger : 30151952
+[]
+Ledger : 30151953
+[]
+Ledger : 30151954
+[]
+Ledger : 30151955
+[]
+Ledger : 30151956
+[]
+Ledger : 30151957
+[]
+Ledger : 30151958
+[]
+Ledger : 30151959
+[]
+Ledger : 30151960
+[]
+Ledger : 30151961
+[]
+Ledger : 30151962
+[]
+Ledger : 30151963
+[]
+Ledger : 30151964
+[]
+Ledger : 30151965
+[]
+Ledger : 30151966
+[]
+Ledger : 30151967
+[]
+Ledger : 30151968
+[]
+Ledger : 30151969
+[]
+Ledger : 30151970
+[]
+Ledger : 30151971
+[]
+Ledger : 30151972
+[]
+Ledger : 30151973
+[]
+Ledger : 30151974
+[]
+Ledger : 30151975
+[]
+Ledger : 30151976
+[]
+Ledger : 30151977
+[]
+Ledger : 30151978
+[]
+Ledger : 30151979
+[]
+Ledger : 30151980
+[]
+Ledger : 30151981
+[]
+Ledger : 30151982
+[]
+Ledger : 30151983
+[]
+Ledger : 30151984
+[]
+Ledger : 30151985
+[]
+Ledger : 30151986
+[]
+Ledger : 30151987
+[]
+Ledger : 30151988
+[]
+Ledger : 30151989
+[]
+Ledger : 30151990
+[]
+Ledger : 30151991
+[]
+Ledger : 30151992
+[]
+Ledger : 30151993
+[]
+Ledger : 30151994
+[]
+Ledger : 30151995
+[]
+Ledger : 30151996
+[]
+Ledger : 30151997
+[]
+Ledger : 30151998
+[]
+Ledger : 30151999
+[]
+Ledger : 30152000
+[]
+Ledger : 30152001
+[]
+Ledger : 30152002
+[]
+Ledger : 30152003
+[]
+Ledger : 30152004
+[]
+Ledger : 30152005
+[]
+Ledger : 30152006
+[]
+Ledger : 30152007
+[]
+Ledger : 30152008
+[]
+Ledger : 30152009
+[]
+Ledger : 30152010
+[]
+Ledger : 30152011
+[]
+Ledger : 30152012
+[]
+Ledger : 30152013
+[]
+Ledger : 30152014
+[]
+Ledger : 30152015
+[]
+Ledger : 30152016
+[]
+Ledger : 30152017
+[]
+Ledger : 30152018
+[]
+Ledger : 30152019
+[]
+Ledger : 30152020
+[]
+Ledger : 30152021
+[]
+Ledger : 30152022
+[]
+Ledger : 30152023
+[]
+Ledger : 30152024
+[]
+Ledger : 30152025
+[]
+Ledger : 30152026
+[]
+Ledger : 30152027
+[]
+Ledger : 30152028
+[]
+Ledger : 30152029
+[]
+Ledger : 30152030
+[]
+Ledger : 30152031
+[]
+Ledger : 30152032
+[]
+Ledger : 30152033
+[]
+Ledger : 30152034
+[]
+Ledger : 30152035
+[]
+Ledger : 30152036
+[]
+Ledger : 30152037
+[]
+Ledger : 30152038
+[]
+Ledger : 30152039
+[]
+Ledger : 30152040
+[]
+Ledger : 30152041
+[]
+Ledger : 30152042
+[]
+Ledger : 30152043
+[]
+Ledger : 30152044
+[]
+Ledger : 30152045
+[]
+Ledger : 30152046
+[]
+Ledger : 30152047
+[]
+Ledger : 30152048
+[]
+Ledger : 30152049
+[]
+Ledger : 30152050
+[]
+Ledger : 30152051
+[]
+Ledger : 30152052
+[]
+Ledger : 30152053
+[]
+Ledger : 30152054
+[]
+Ledger : 30152055
+[]
+Ledger : 30152056
+[]
+Ledger : 30152057
+[]
+Ledger : 30152058
+[]
+Ledger : 30152059
+[]
+Ledger : 30152060
+[]
+Ledger : 30152061
+[]
+Ledger : 30152062
+[]
+Ledger : 30152063
+[]
+Ledger : 30152064
+[]
+Ledger : 30152065
+[]
+Ledger : 30152066
+[]
+Ledger : 30152067
+[]
+Ledger : 30152068
+[]
+Ledger : 30152069
+[]
+Ledger : 30152070
+[]
+Ledger : 30152071
+[{"type":"order","address":"ra7XwWd5xtiRtRFREtLKpsesYswS6QyM3k","sequence":7,"id":"49B2E2A06B1C4ACD098228F4916B3381D545639C4340B4D5499A4AB336FAB22A","specification":{"direction":"buy","quantity":{"currency":"XRP","value":"1000"},"totalPrice":{"currency":"JPY","value":"24700","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"}},"outcome":{"result":"tesSUCCESS","timestamp":"2017-05-31T04:39:41.000Z","fee":"0.007482","balanceChanges":{"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"123.5"},{"currency":"XRP","value":"-5"}],"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS":[{"counterparty":"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf","currency":"JPY","value":"-123.5"},{"counterparty":"rp6XNsJ4at9ArRHLXWnWP8ovRLwhXBUmnt","currency":"JPY","value":"-6855.043733999999"},{"counterparty":"rfcWA4NhQVKb3fFmHs59VPFbLpGUuh2JKW","currency":"JPY","value":"-17709.2770166"},{"counterparty":"ra7XwWd5xtiRtRFREtLKpsesYswS6QyM3k","currency":"JPY","value":"24737.1963921012"}],"rp6XNsJ4at9ArRHLXWnWP8ovRLwhXBUmnt":[{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"6855.043733999999"},{"currency":"XRP","value":"-278.025222"}],"rfcWA4NhQVKb3fFmHs59VPFbLpGUuh2JKW":[{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"17709.2770166"},{"currency":"XRP","value":"-716.974778"}],"ra7XwWd5xtiRtRFREtLKpsesYswS6QyM3k":[{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"-24737.1963921012"},{"currency":"XRP","value":"999.992518"}]},"orderbookChanges":{"rp6XNsJ4at9ArRHLXWnWP8ovRLwhXBUmnt":[{"direction":"sell","quantity":{"currency":"XRP","value":"69.509477"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"1713.967675"},"sequence":394480,"status":"filled","makerExchangeRate":"24.65804303203145"},{"direction":"sell","quantity":{"currency":"XRP","value":"69.509464"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"1713.624571"},"sequence":394508,"status":"filled","makerExchangeRate":"24.65311156765646"},{"direction":"sell","quantity":{"currency":"XRP","value":"69.509464"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"1713.453197"},"sequence":394511,"status":"filled","makerExchangeRate":"24.65064609043741"},{"direction":"sell","quantity":{"currency":"XRP","value":"69.496817"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"1713.998291"},"sequence":394476,"status":"filled","makerExchangeRate":"24.66297544245803"}],"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"direction":"sell","quantity":{"currency":"XRP","value":"5"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"123.5"},"sequence":176,"status":"filled","makerExchangeRate":"24.7"}],"rfcWA4NhQVKb3fFmHs59VPFbLpGUuh2JKW":[{"direction":"sell","quantity":{"currency":"XRP","value":"716.974778"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"17709.2770166"},"sequence":466,"status":"partially-filled","makerExchangeRate":"24.7"}]},"ledgerVersion":30152071,"indexInLedger":11}}]
+Ledger : 30152072
+[]
+Ledger : 30152073
+[]
+Ledger : 30152074
+[]
+Ledger : 30152075
+[]
+Ledger : 30152076
+[]
+Ledger : 30152077
+[]
+Ledger : 30152078
+[]
+Ledger : 30152079
+[]
+Ledger : 30152080
+[]
+Ledger : 30152081
+[]
+Ledger : 30152082
+[]
+Ledger : 30152083
+[]
+Ledger : 30152084
+[]
+Ledger : 30152085
+[]
+Ledger : 30152086
+[]
+Ledger : 30152087
+[]
+Ledger : 30152088
+[]
+Ledger : 30152089
+[]
+Ledger : 30152090
+[]
+Ledger : 30152091
+[]
+Ledger : 30152092
+[]
+Ledger : 30152093
+[]
+Ledger : 30152094
+[]
+Ledger : 30152095
+[]
+Ledger : 30152096
+[]
+Ledger : 30152097
+[]
+Ledger : 30152098
+[]
+Ledger : 30152099
+[]
+Ledger : 30152100
+[]
+Ledger : 30152101
+[]
+Ledger : 30152102
+[]
+Ledger : 30152103
+[]
+Ledger : 30152104
+[]
+Ledger : 30152105
+[]
+Ledger : 30152106
+[]
+Ledger : 30152107
+[]
+Ledger : 30152108
+[]
+Ledger : 30152109
+[]
+Ledger : 30152110
+[]
+Ledger : 30152111
+[]
+Ledger : 30152112
+[]
+Ledger : 30152113
+[]
+Ledger : 30152114
+[]
+Ledger : 30152115
+[]
+Ledger : 30152116
+[]
+Ledger : 30152117
+[]
+Ledger : 30152118
+[]
+Ledger : 30152119
+[]
+Ledger : 30152120
+[]
+Ledger : 30152121
+[]
+Ledger : 30152122
+[]
+Ledger : 30152123
+[]
+Ledger : 30152124
+[]
+Ledger : 30152125
+[]
+Ledger : 30152126
+[]
+Ledger : 30152127
+[]
+Ledger : 30152128
+[]
+Ledger : 30152129
+[]
+Ledger : 30152130
+[]
+Ledger : 30152131
+[]
+Ledger : 30152132
+[]
+Ledger : 30152133
+[]
+Ledger : 30152134
+[]
+Ledger : 30152135
+[]
+Ledger : 30152136
+[]
+Ledger : 30152137
+[]
+Ledger : 30152138
+[]
+Ledger : 30152139
+[]
+Ledger : 30152140
+[]
+Ledger : 30152141
+[]
+Ledger : 30152142
+[]
+Ledger : 30152143
+[]
+Ledger : 30152144
+[]
+Ledger : 30152145
+[]
+Ledger : 30152146
+[]
+Ledger : 30152147
+[]
+Ledger : 30152148
+[]
+Ledger : 30152149
+[]
+Ledger : 30152150
+[]
+Ledger : 30152151
+[]
+Ledger : 30152152
+[]
+Ledger : 30152153
+[]
+Ledger : 30152154
+[]
+Ledger : 30152155
+[]
+Ledger : 30152156
+[]
+Ledger : 30152157
+[]
+Ledger : 30152158
+[]
+Ledger : 30152159
+[]
+Ledger : 30152160
+[]
+Ledger : 30152161
+[]
+Ledger : 30152162
+[]
+Ledger : 30152163
+[]
+Ledger : 30152164
+[]
+Ledger : 30152165
+[]
+Ledger : 30152166
+[]
+Ledger : 30152167
+[]
+Ledger : 30152168
+[]
+Ledger : 30152169
+[]
+Ledger : 30152170
+[]
+Ledger : 30152171
+[]
+Ledger : 30152172
+[]
+Ledger : 30152173
+[]
+Ledger : 30152174
+[]
+Ledger : 30152175
+[]
+Ledger : 30152176
+[]
+Ledger : 30152177
+[]
+Ledger : 30152178
+[]
+Ledger : 30152179
+[]
+Ledger : 30152180
+[]
+Ledger : 30152181
+[]
+Ledger : 30152182
+[]
+Ledger : 30152183
+[]
+Ledger : 30152184
+[]
+Ledger : 30152185
+[]
+Ledger : 30152186
+[]
+Ledger : 30152187
+[]
+Ledger : 30152188
+[]
+Ledger : 30152189
+[]
+Ledger : 30152190
+[]
+Ledger : 30152191
+[]
+Ledger : 30152192
+[]
+Ledger : 30152193
+[]
+Ledger : 30152194
+[]
+Ledger : 30152195
+[]
+Ledger : 30152196
+[]
+Ledger : 30152197
+[]
+Ledger : 30152198
+[]
+Ledger : 30152199
+[]
+Ledger : 30152200
+[]
+Ledger : 30152201
+[]
+Ledger : 30152202
+[]
+Ledger : 30152203
+[]
+Ledger : 30152204
+[]
+Ledger : 30152205
+[]
+Ledger : 30152206
+[]
+Ledger : 30152207
+[]
+Ledger : 30152208
+[]
+Ledger : 30152209
+[]
+Ledger : 30152210
+[]
+Ledger : 30152211
+[]
+Ledger : 30152212
+[]
+Ledger : 30152213
+[]
+Ledger : 30152214
+[]
+Ledger : 30152215
+[]
+Ledger : 30152216
+[]
+Ledger : 30152217
+[]
+Ledger : 30152218
+[]
+Ledger : 30152219
+[]
+Ledger : 30152220
+[]
+Ledger : 30152221
+[]
+Ledger : 30152222
+[]
+Ledger : 30152223
+[]
+Ledger : 30152224
+[]
+Ledger : 30152225
+[]
+Ledger : 30152226
+[]
+Ledger : 30152227
+[]
+Ledger : 30152228
+[]
+Ledger : 30152229
+[]
+Ledger : 30152230
+[]
+Ledger : 30152231
+[]
+Ledger : 30152232
+[]
+Ledger : 30152233
+[]
+Ledger : 30152234
+[]
+Ledger : 30152235
+[]
+Ledger : 30152236
+[]
+Ledger : 30152237
+[]
+Ledger : 30152238
+[]
+Ledger : 30152239
+[]
+Ledger : 30152240
+[]
+Ledger : 30152241
+[]
+Ledger : 30152242
+[]
+Ledger : 30152243
+[]
+Ledger : 30152244
+[]
+Ledger : 30152245
+[]
+Ledger : 30152246
+[]
+Ledger : 30152247
+[]
+Ledger : 30152248
+[]
+Ledger : 30152249
+[]
+Ledger : 30152250
+[]
+Ledger : 30152251
+[]
+Ledger : 30152252
+[]
+Ledger : 30152253
+[]
+Ledger : 30152254
+[]
+Ledger : 30152255
+[]
+Ledger : 30152256
+[]
+connected
+Subscribed to account raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf
+Ledger : 30152503
+[]
+Ledger : 30152504
+[]
+Ledger : 30152505
+[]
+Ledger : 30152506
+[]
+Ledger : 30152507
+[]
+Ledger : 30152508
+[]
+Ledger : 30152509
+[{"type":"order","address":"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf","sequence":180,"id":"33AA38C96E0FD6C1A09DE440BDB7FFD0E9C5076089F6C8301D2B5465BAA7811E","specification":{"direction":"buy","quantity":{"currency":"XRP","value":"5"},"totalPrice":{"currency":"JPY","value":"122.5","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"}},"outcome":{"result":"tesSUCCESS","timestamp":"2017-05-31T05:06:10.000Z","fee":"0.000012","balanceChanges":{"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"-121.117573748283"},{"currency":"XRP","value":"4.999988"}],"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS":[{"counterparty":"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf","currency":"JPY","value":"121.117573748283"},{"counterparty":"rp6XNsJ4at9ArRHLXWnWP8ovRLwhXBUmnt","currency":"JPY","value":"-120.875822104075"}],"rp6XNsJ4at9ArRHLXWnWP8ovRLwhXBUmnt":[{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"120.875822104075"},{"currency":"XRP","value":"-5"}]},"orderbookChanges":{"rp6XNsJ4at9ArRHLXWnWP8ovRLwhXBUmnt":[{"direction":"sell","quantity":{"currency":"XRP","value":"5"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"120.875822104075"},"sequence":394782,"status":"partially-filled","makerExchangeRate":"24.175164420815"}]},"ledgerVersion":30152509,"indexInLedger":8}}]
+Ledger : 30152510
+[]
+Ledger : 30152511
+[]
+Ledger : 30152512
+[]
+Ledger : 30152513
+[]
+Ledger : 30152514
+[]
+Ledger : 30152515
+[]
+Ledger : 30152516
+[]
+Ledger : 30152517
+[]
+Ledger : 30152518
+[]
+Ledger : 30152519
+[]
+Ledger : 30152520
+[]
+Ledger : 30152521
+[]
+Ledger : 30152522
+[]
+Ledger : 30152523
+[]
+Ledger : 30152524
+[]
+Ledger : 30152525
+[]
+Ledger : 30152526
+[]
+Ledger : 30152527
+[{"type":"order","address":"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf","sequence":181,"id":"FE887D724F5D03C62B20941A8C7287381269C896D25B65986992D5BC4BD17BE2","specification":{"direction":"buy","quantity":{"currency":"XRP","value":"5"},"totalPrice":{"currency":"JPY","value":"115.5","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"}},"outcome":{"result":"tesSUCCESS","timestamp":"2017-05-31T05:07:11.000Z","fee":"0.000012","balanceChanges":{"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"currency":"XRP","value":"-0.000012"}]},"orderbookChanges":{"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"direction":"buy","quantity":{"currency":"XRP","value":"5"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"115.5"},"sequence":181,"status":"created","makerExchangeRate":"0.04329004329004329"}]},"ledgerVersion":30152527,"indexInLedger":2}}]
+Ledger : 30152528
+[]
+Ledger : 30152529
+[]
+Ledger : 30152530
+[]
+Ledger : 30152531
+[]
+Ledger : 30152532
+[]
+Ledger : 30152533
+[]
+Ledger : 30152534
+[]
+Ledger : 30152535
+[]
+Ledger : 30152536
+[]
+Ledger : 30152537
+[]
+Ledger : 30152538
+[]
+Ledger : 30152539
+[]
+Ledger : 30152540
+[]
+Ledger : 30152541
+[]
+Ledger : 30152542
+[]
+Ledger : 30152543
+[]
+Ledger : 30152544
+[]
+Ledger : 30152545
+[]
+Ledger : 30152546
+[]
+Ledger : 30152547
+[]
+Ledger : 30152548
+[]
+Ledger : 30152549
+[]
+Ledger : 30152550
+[]
+Ledger : 30152551
+[]
+Ledger : 30152552
+[]
+Ledger : 30152553
+[]
+Ledger : 30152554
+[]
+Ledger : 30152555
+[]
+Ledger : 30152556
+[]
+Ledger : 30152557
+[]
+Ledger : 30152558
+[]
+Ledger : 30152559
+[]
+Ledger : 30152560
+[]
+Ledger : 30152561
+[]
+Ledger : 30152562
+[]
+Ledger : 30152563
+[]
+Ledger : 30152564
+[]
+Ledger : 30152565
+[]
+Ledger : 30152566
+[]
+Ledger : 30152567
+[]
+Ledger : 30152568
+[]
+Ledger : 30152569
+[]
+Ledger : 30152570
+[]
+Ledger : 30152571
+[]
+Ledger : 30152572
+[]
+Ledger : 30152573
+[]
+Ledger : 30152574
+[]
+Ledger : 30152575
+[]
+Ledger : 30152576
+[]
+Ledger : 30152577
+[]
+Ledger : 30152578
+[]
+Ledger : 30152579
+[]
+Ledger : 30152580
+[]
+Ledger : 30152581
+[]
+Ledger : 30152582
+[]
+Ledger : 30152583
+[]
+Ledger : 30152584
+[]
+Ledger : 30152585
+[]
+Ledger : 30152586
+[]
+Ledger : 30152587
+[]
+Ledger : 30152588
+[]
+Ledger : 30152589
+[]
+Ledger : 30152590
+[]
+Ledger : 30152591
+[]
+Ledger : 30152592
+[]
+Ledger : 30152593
+[]
+Ledger : 30152594
+[]
+Ledger : 30152595
+[]
+Ledger : 30152596
+[]
+Ledger : 30152597
+[]
+Ledger : 30152598
+[]
+Ledger : 30152599
+[]
+Ledger : 30152600
+[]
+Ledger : 30152601
+[]
+Ledger : 30152602
+[]
+Ledger : 30152603
+[]
+Ledger : 30152604
+[]
+Ledger : 30152605
+[]
+Ledger : 30152606
+[]
+Ledger : 30152607
+[]
+Ledger : 30152608
+[]
+Ledger : 30152609
+[]
+Ledger : 30152610
+[]
+Ledger : 30152611
+[]
+Ledger : 30152612
+[]
+Ledger : 30152613
+[]
+Ledger : 30152614
+[]
+Ledger : 30152615
+[]
+Ledger : 30152616
+[]
+Ledger : 30152617
+[]
+Ledger : 30152618
+[]
+Ledger : 30152619
+[]
+Ledger : 30152620
+[]
+Ledger : 30152621
+[]
+Ledger : 30152622
+[]
+Ledger : 30152623
+[]
+Ledger : 30152624
+[]
+Ledger : 30152625
+[]
+Ledger : 30152626
+[]
+Ledger : 30152627
+[]
+Ledger : 30152628
+[]
+Ledger : 30152629
+[{"type":"payment","address":"rbNyvG6Ba4go53pBV1qLZ8BkvJWT1ptvJ","sequence":86,"id":"DD707E861044B9C46C9E2054EAF00597BB2C2E2DC6F14EB00AD67AFF016C668B","specification":{"source":{"address":"rbNyvG6Ba4go53pBV1qLZ8BkvJWT1ptvJ","maxAmount":{"currency":"JPY","value":"1005520.938"}},"destination":{"address":"rbNyvG6Ba4go53pBV1qLZ8BkvJWT1ptvJ","amount":{"currency":"XRP","value":"40000"}},"paths":"[[{\"account\":\"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS\",\"type\":1,\"type_hex\":\"0000000000000001\"},{\"currency\":\"XRP\",\"type\":16,\"type_hex\":\"0000000000000010\"}]]"},"outcome":{"result":"tesSUCCESS","timestamp":"2017-05-31T05:13:11.000Z","fee":"0.000012","balanceChanges":{"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS":[{"counterparty":"rH3uSRUJYoJhK4kL9x1mzUhDimKE2n3oT6","currency":"JPY","value":"-161092.6672552247"},{"counterparty":"rbNyvG6Ba4go53pBV1qLZ8BkvJWT1ptvJ","currency":"JPY","value":"995565.285457033"},{"counterparty":"rfdFKdaWmbuks9SPmeSW11u9wzcfu7myPK","currency":"JPY","value":"-804"},{"counterparty":"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf","currency":"JPY","value":"-120.9"},{"counterparty":"rp6XNsJ4at9ArRHLXWnWP8ovRLwhXBUmnt","currency":"JPY","value":"-5029.291616"},{"counterparty":"rUtPYpVoM7ryaNvZaQazYS1ePdDmgEUjdE","currency":"JPY","value":"-3905.81123825764"},{"counterparty":"rwDM6HHJvF5xFLb9mScvuMbcMJh1RYrHTW","currency":"JPY","value":"-72599.85"},{"counterparty":"rUe9M6mWf7RsvB9WpKic6cGWe6vsPexp7M","currency":"JPY","value":"-24695.85"},{"counterparty":"rKwVw5rYDCxHTGJ3DXD5JXP3bcbvQQvoAs","currency":"JPY","value":"-485749.686492"},{"counterparty":"rD8LigXE7165r3VWhSQ4FwzJy7PNrTMwUq","currency":"JPY","value":"-79499.4299999916"},{"counterparty":"rKm95oeigkVLaTozeLzqBqpuyZvferFoPD","currency":"JPY","value":"-1344.5"},{"counterparty":"rEr3hxu5aim5tDWwH7H8BK47K91tR8c7FM","currency":"JPY","value":"-158736.1425971627"}],"rH3uSRUJYoJhK4kL9x1mzUhDimKE2n3oT6":[{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"161092.6672552247"},{"currency":"XRP","value":"-6409.261131"}],"rbNyvG6Ba4go53pBV1qLZ8BkvJWT1ptvJ":[{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"-995565.285457033"},{"currency":"XRP","value":"39999.999988"}],"rfdFKdaWmbuks9SPmeSW11u9wzcfu7myPK":[{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"804"},{"currency":"XRP","value":"-30"}],"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"120.9"},{"currency":"XRP","value":"-5"}],"rKm95oeigkVLaTozeLzqBqpuyZvferFoPD":[{"currency":"XRP","value":"-50"},{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"1344.5"}],"rEr3hxu5aim5tDWwH7H8BK47K91tR8c7FM":[{"currency":"XRP","value":"-6409.261131"},{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"158736.1425971627"}],"rp6XNsJ4at9ArRHLXWnWP8ovRLwhXBUmnt":[{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"5029.291616"},{"currency":"XRP","value":"-208.590973"}],"rUe9M6mWf7RsvB9WpKic6cGWe6vsPexp7M":[{"currency":"XRP","value":"-915"},{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"24695.85"}],"rwDM6HHJvF5xFLb9mScvuMbcMJh1RYrHTW":[{"currency":"XRP","value":"-3000"},{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"72599.85"}],"rUtPYpVoM7ryaNvZaQazYS1ePdDmgEUjdE":[{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"3905.81123825764"},{"currency":"XRP","value":"-146.368949"}],"rKwVw5rYDCxHTGJ3DXD5JXP3bcbvQQvoAs":[{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"485749.686492"},{"currency":"XRP","value":"-19826.517816"}],"rD8LigXE7165r3VWhSQ4FwzJy7PNrTMwUq":[{"counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","currency":"JPY","value":"79499.4299999916"},{"currency":"XRP","value":"-3000"}]},"orderbookChanges":{"rp6XNsJ4at9ArRHLXWnWP8ovRLwhXBUmnt":[{"direction":"sell","quantity":{"currency":"XRP","value":"69.53032"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"1675.871439"},"sequence":394856,"status":"filled","makerExchangeRate":"24.10274307668942"},{"direction":"sell","quantity":{"currency":"XRP","value":"69.530335"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"1677.716368"},"sequence":394828,"status":"filled","makerExchangeRate":"24.1292720364428"},{"direction":"sell","quantity":{"currency":"XRP","value":"69.530318"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"1675.703809"},"sequence":394859,"status":"filled","makerExchangeRate":"24.10033287924845"}],"rH3uSRUJYoJhK4kL9x1mzUhDimKE2n3oT6":[{"direction":"buy","quantity":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"161092.6672552247"},"totalPrice":{"currency":"XRP","value":"6409.261131"},"sequence":13064975,"status":"filled","makerExchangeRate":"25.13435854190112"}],"rUtPYpVoM7ryaNvZaQazYS1ePdDmgEUjdE":[{"direction":"sell","quantity":{"currency":"XRP","value":"92.194264"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"2443.14891794264"},"sequence":286,"status":"filled","makerExchangeRate":"26.50001"},{"direction":"sell","quantity":{"currency":"XRP","value":"54.174685"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"1462.662320315"},"sequence":276,"status":"partially-filled","makerExchangeRate":"26.999"}],"rKm95oeigkVLaTozeLzqBqpuyZvferFoPD":[{"direction":"sell","quantity":{"currency":"XRP","value":"50"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"1344.5"},"sequence":112,"status":"filled","makerExchangeRate":"26.89"}],"rEr3hxu5aim5tDWwH7H8BK47K91tR8c7FM":[{"direction":"buy","quantity":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"158736.1425971627"},"totalPrice":{"currency":"XRP","value":"6409.261131"},"sequence":46520834,"status":"filled","makerExchangeRate":"24.76668360872293"}],"rwDM6HHJvF5xFLb9mScvuMbcMJh1RYrHTW":[{"direction":"sell","quantity":{"currency":"XRP","value":"3000"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"72599.85"},"sequence":2849,"status":"filled","makerExchangeRate":"24.19995"}],"rUe9M6mWf7RsvB9WpKic6cGWe6vsPexp7M":[{"direction":"sell","quantity":{"currency":"XRP","value":"915"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"24695.85"},"sequence":113,"status":"filled","makerExchangeRate":"26.99"}],"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf":[{"direction":"sell","quantity":{"currency":"XRP","value":"5"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"120.9"},"sequence":179,"status":"filled","makerExchangeRate":"24.18"}],"rfdFKdaWmbuks9SPmeSW11u9wzcfu7myPK":[{"direction":"sell","quantity":{"currency":"XRP","value":"30"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"804"},"sequence":430,"status":"filled","makerExchangeRate":"26.8"}],"rKwVw5rYDCxHTGJ3DXD5JXP3bcbvQQvoAs":[{"direction":"sell","quantity":{"currency":"XRP","value":"19826.517816"},"totalPrice":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"485749.686492"},"sequence":222,"status":"filled","makerExchangeRate":"24.5"}],"rD8LigXE7165r3VWhSQ4FwzJy7PNrTMwUq":[{"direction":"buy","quantity":{"currency":"JPY","counterparty":"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS","value":"79499.4299999925"},"totalPrice":{"currency":"XRP","value":"3000"},"sequence":3948477,"status":"filled","makerExchangeRate":"26.4998099999975"}]},"ledgerVersion":30152629,"indexInLedger":6,"deliveredAmount":{"currency":"XRP","value":"40000"}}}]
+Ledger : 30152630
+[]
+Ledger : 30152631
+[]
+Ledger : 30152632
+[]
+Ledger : 30152633
+[]
+Ledger : 30152634
+[]
+Ledger : 30152635
+[]
+Ledger : 30152636
+[]
+Ledger : 30152637
+[]
+Ledger : 30152638
+[]
+Ledger : 30152639
+[]
+Ledger : 30152640
+[]
+Ledger : 30152641
+[]
+Ledger : 30152642
+[]
+Ledger : 30152643
+[]
+Ledger : 30152644
+[]
+Ledger : 30152645
+[]
+Ledger : 30152646
+[]
+Ledger : 30152647
+[]
+Ledger : 30152648
+[]
+Ledger : 30152649
+[]
+Ledger : 30152650
+[]
+Ledger : 30152651
+[]
+Ledger : 30152652
+[]
+Ledger : 30152653
+[]
+Ledger : 30152654
+[]
+Ledger : 30152655
+[]
+Ledger : 30152656
+[]
+Ledger : 30152657
+[]
+Ledger : 30152658
+[]
+Ledger : 30152659
+[]
+Ledger : 30152660
+[]
+Ledger : 30152661
+[]
+Ledger : 30152662
+[]
+Ledger : 30152663
+[]
+Ledger : 30152664
+[]
+Ledger : 30152665
+[]
+Ledger : 30152666
+[]
+Ledger : 30152667
+[]
+Ledger : 30152668
+[]
+Ledger : 30152669
+[]
+Ledger : 30152670
+[]
+Ledger : 30152671
+[]
+Ledger : 30152672
+[]
+Ledger : 30152673
+[]
+Ledger : 30152674
+[]
+Ledger : 30152675
+[]
+Ledger : 30152676
+[]
+Ledger : 30152677
+[]
+Ledger : 30152678
+[]
+Ledger : 30152679
+[]
+Ledger : 30152680
+[]
+Ledger : 30152681
+[]
+Ledger : 30152682
+[]
+Ledger : 30152683
+[]
+Ledger : 30152684
+[]
+Ledger : 30152685
+[]
+Ledger : 30152686
+[]
+Ledger : 30152687
+[]
+Ledger : 30152688
+[]
+Ledger : 30152689
+[]
+Ledger : 30152690
+[]
+Ledger : 30152691
+[]
+Ledger : 30152692
+[]
+Ledger : 30152693
+[]
+Ledger : 30152694
+[]
+Ledger : 30152695
+[]
+Ledger : 30152696
+[]
+Ledger : 30152697
+[]
+Ledger : 30152698
+[]
+Ledger : 30152699
+[]
+Ledger : 30152700
+[]
+Ledger : 30152701
+[]
+Ledger : 30152702
+[]
+Ledger : 30152703
+[]
+Ledger : 30152704
+[]
+Ledger : 30152705
+[]
+Ledger : 30152706
+[]
+Ledger : 30152707
+[]
+Ledger : 30152708
+[]
+Ledger : 30152709
+[]
+Ledger : 30152710
+[]
+Ledger : 30152711
+[]
+Ledger : 30152712
+[]
+Ledger : 30152713
+[]
+Ledger : 30152714
+[]
+Ledger : 30152715
+[]
+Ledger : 30152716
+[]
+Ledger : 30152717
+[]
+Ledger : 30152718
+[]
+Ledger : 30152719
+[]
+Ledger : 30152720
+[]
+Ledger : 30152721
+[]
+Ledger : 30152722
+[]
+Ledger : 30152723
+[]
+Ledger : 30152724
+[]
+Ledger : 30152725
+[]
+Ledger : 30152726
+[]
+Ledger : 30152727
+[]
+Ledger : 30152728
+[]
+Ledger : 30152729
+[]
+Ledger : 30152730
+[]
+Ledger : 30152731
+[]
+Ledger : 30152732
+[]
+Ledger : 30152733
+[]
+Ledger : 30152734
+[]
+Ledger : 30152735
+[]
+Ledger : 30152736
+[]
+Ledger : 30152737
+[]
+Ledger : 30152738
+[]
+Ledger : 30152739
+[]
+Ledger : 30152740
+[]
+Ledger : 30152741
+[]
+Ledger : 30152742
+[]
+Ledger : 30152743
+[]
+Ledger : 30152744
+[]
+Ledger : 30152745
+[]
+Ledger : 30152746
+[]
+Ledger : 30152747
+[]
+Ledger : 30152748
+[]
+Ledger : 30152749
+[]
+Ledger : 30152750
+[]
+Ledger : 30152751
+[]
+Ledger : 30152752
+[]
+Ledger : 30152753
+[]
+Ledger : 30152754
+[]
+Ledger : 30152755
+[]
+Ledger : 30152756
+[]
+Ledger : 30152757
+[]
+Ledger : 30152758
+[]
+Ledger : 30152759
+[]
+Ledger : 30152760
+[]
+Ledger : 30152761
+[]
+Ledger : 30152762
+[]
+Ledger : 30152763
+[]
+Ledger : 30152764
+[]
+Ledger : 30152765
+[]
+Ledger : 30152766
+[]
+Ledger : 30152767
+[]
+Ledger : 30152768
+[]
+Ledger : 30152769
+[]
+Ledger : 30152770
+[]
+Ledger : 30152771
+[]
+Ledger : 30152772
+[]
+Ledger : 30152773
+[]
+Ledger : 30152774
+[]
+Ledger : 30152775
+[]
+Ledger : 30152776
+[]
+Ledger : 30152777
+[]
+Ledger : 30152778
+[]
+Ledger : 30152779
+[]
+Ledger : 30152780
+[]
+Ledger : 30152781
+[]
+Ledger : 30152782
+[]
+Ledger : 30152783
+[]
+Ledger : 30152784
+[]
+Ledger : 30152785
+[]
+Ledger : 30152786
+[]
+Ledger : 30152787
+[]
+Ledger : 30152788
+[]
+Ledger : 30152789
+[]
+Ledger : 30152790
+[]
+Ledger : 30152791
+[]
+Ledger : 30152792
+[]
+Ledger : 30152793
+[]
+Ledger : 30152794
+[]
+Ledger : 30152795
+[]
+Ledger : 30152796
+[]
+Ledger : 30152797
+[]
+Ledger : 30152798
+[]
+Ledger : 30152799
+[]
+Ledger : 30152800
+[]
+Ledger : 30152801
+[]
+Ledger : 30152802
+[]
+Ledger : 30152803
+[]
+Ledger : 30152804
+[]
+Ledger : 30152805
+[]
+Ledger : 30152806
+[]
+Ledger : 30152807
+[]
+Ledger : 30152808
+[]
+Ledger : 30152809
+[]
+Ledger : 30152810
+[]
+Ledger : 30152811
+[]
+Ledger : 30152812
+[]
+Ledger : 30152813
+[]
+Ledger : 30152814
+[]
+Ledger : 30152815
+[]
+Ledger : 30152816
+[]
+Ledger : 30152817
+[]
+Ledger : 30152818
+[]
+Ledger : 30152819
+[]
+Ledger : 30152820
+[]
+Ledger : 30152821
+[]
+Ledger : 30152822
+[]
+Ledger : 30152823
+[]
+Ledger : 30152824
+[]
+Ledger : 30152825
+[]
+Ledger : 30152826
+[]
+Ledger : 30152827
+[]
+Ledger : 30152828
+[]
+Ledger : 30152829
+[]
+Ledger : 30152830
+[]
+Ledger : 30152831
+[]
+Ledger : 30152832
+[]
+Ledger : 30152833
+[]
+Ledger : 30152834
+[]
+Ledger : 30152835
+[]
+Ledger : 30152836
+[]
+Ledger : 30152837
+[]
+Ledger : 30152838
+[]
+Ledger : 30152839
+[]
+Ledger : 30152840
+[]
+Ledger : 30152841
+[]
+Ledger : 30152842
+[]
+Ledger : 30152843
+[]
+Ledger : 30152844
+[]
+Ledger : 30152845
+[]
+Ledger : 30152846
+[]
+Ledger : 30152847
+[]
+Ledger : 30152848
+[]
+Ledger : 30152849
+[]
+Ledger : 30152850
+[]
+Ledger : 30152851
+[]
+Ledger : 30152852
+[]
+Ledger : 30152853
+[]
+Ledger : 30152854
+[]
+Ledger : 30152855
+[]
+Ledger : 30152856
+[]
+Ledger : 30152857
+[]
+Ledger : 30152858
+[]
+Ledger : 30152859
+[]
+Ledger : 30152860
+[]
+Ledger : 30152861
+[]
+Ledger : 30152862
+[]
+Ledger : 30152863
+[]
+Ledger : 30152864
+[]
+Ledger : 30152865
+[]
+Ledger : 30152866
+[]
+Ledger : 30152867
+[]
+Ledger : 30152868
+[]
+Ledger : 30152869
+[]
+Ledger : 30152870
+[]
+Ledger : 30152871
+[]
+Ledger : 30152872
+[]
+Ledger : 30152873
+[]
+Ledger : 30152874
+[]
+Ledger : 30152875
+[]
+Ledger : 30152876
+[]
+Ledger : 30152877
+[]
+Ledger : 30152878
+[]
+Ledger : 30152879
+[]
+Ledger : 30152880
+[]
+Ledger : 30152881
+[]
+Ledger : 30152882
+[]
+Ledger : 30152883
+[]
+Ledger : 30152884
+[]
+Ledger : 30152885
+[]
+Ledger : 30152886
+[]
+Ledger : 30152887
+[]
+Ledger : 30152888
+[]
+Ledger : 30152889
+[]
+Ledger : 30152890
+[]
+Ledger : 30152891
+[]
+Ledger : 30152892
+[]
+Ledger : 30152893
+[]
+Ledger : 30152894
+[]
+Ledger : 30152895
+[]
+Ledger : 30152896
+[]
+Ledger : 30152897
+[]
+Ledger : 30152898
+[]
+Ledger : 30152899
+[]
+Ledger : 30152900
+[]
+Ledger : 30152901
+[]
+Ledger : 30152902
+[]
+Ledger : 30152903
+[]
+Ledger : 30152904
+[]
+Ledger : 30152905
+[]
+Ledger : 30152906
+[]
+Ledger : 30152907
+[]
+Ledger : 30152908
+[]
+Ledger : 30152909
+[]
+Ledger : 30152910
+[]
+Ledger : 30152911
+[]
+Ledger : 30152912
+[]
+Ledger : 30152913
+[]
+Ledger : 30152914
+[]
+Ledger : 30152915
+[]
+Ledger : 30152916
+[]
+Ledger : 30152917
+[]
+Ledger : 30152918
+[]
+Ledger : 30152919
+[]
+Ledger : 30152920
+[]
+Ledger : 30152921
+[]
+Ledger : 30152922
+[]
+Ledger : 30152923
+[]
+Ledger : 30152924
+[]
+Ledger : 30152925
+[]
+Ledger : 30152926
+[]
+Ledger : 30152927
+[]
+Ledger : 30152928
+[]
+Ledger : 30152929
+[]
+Ledger : 30152930
+[]
+Ledger : 30152931
+[]
+Ledger : 30152932
+[]
+Ledger : 30152933
+[]
+Ledger : 30152934
+[]
+Ledger : 30152935
+[]
+Ledger : 30152936
+[]
+Ledger : 30152937
+[]
+Ledger : 30152938
+[]
+Ledger : 30152939
+[]
+Ledger : 30152940
+[]
+Ledger : 30152941
+[]
+Ledger : 30152942
+[]
+Ledger : 30152943
+[]
+Ledger : 30152944
+[]
+Ledger : 30152945
+[]
+Ledger : 30152946
+[]
+Ledger : 30152947
+[]
+Ledger : 30152948
+[]
+Ledger : 30152949
+[]
+Ledger : 30152950
+[]
+Ledger : 30152951
+[]
+Ledger : 30152952
+[]
+Ledger : 30152953
+[]
+Ledger : 30152954
+[]
+Ledger : 30152955
+[]
+Ledger : 30152956
+[]
+Ledger : 30152957
+[]
+Ledger : 30152958
+[]
+Ledger : 30152959
+[]
+Ledger : 30152960
+[]
+Ledger : 30152961
+[]
+Ledger : 30152962
+[]
+Ledger : 30152963
+[]
+Ledger : 30152964
+[]
+Ledger : 30152965
+[]
+Ledger : 30152966
+[]
+Ledger : 30152967
+[]
+Ledger : 30152968
+[]
+Ledger : 30152969
+[]
+Ledger : 30152970
+[]
+Ledger : 30152971
+[]
+Ledger : 30152972
+[]
+Ledger : 30152973
+[]
+Ledger : 30152974
+[]
+Ledger : 30152975
+[]
+Ledger : 30152976
+[]
+Ledger : 30152977
+[]
+Ledger : 30152978
+[]
+Ledger : 30152979
+[]
+Ledger : 30152980
+[]
+Ledger : 30152981
+[]
+Ledger : 30152982
+[]
+Ledger : 30152983
+[]
+Ledger : 30152984
+[]
+Ledger : 30152985
+[]
+Ledger : 30152986
+[]
+Ledger : 30152987
+[]
+Ledger : 30152988
+[]
+Ledger : 30152989
+[]
+Ledger : 30152990
+[]
+Ledger : 30152991
+[]
+Ledger : 30152992
+[]
+Ledger : 30152993
+[]
+Ledger : 30152994
+[]
+Ledger : 30152995
+[]
+Ledger : 30152996
+[]
+Ledger : 30152997
+[]
+Ledger : 30152998
+[]
+Ledger : 30152999
+[]
+Ledger : 30153000
+[]
+Ledger : 30153001
+[]
+Ledger : 30153002
+[]
+Ledger : 30153003
+[]
+Ledger : 30153004
+[]
+Ledger : 30153005
+[]
+Ledger : 30153006
+[]
+Ledger : 30153007
+[]
+Ledger : 30153008
+[]
+Ledger : 30153009
+[]
+Ledger : 30153010
+[]
+Ledger : 30153011
+[]
+Ledger : 30153012
+[]
+Ledger : 30153013
+[]
+Ledger : 30153014
+[]
+Ledger : 30153015
+[]
+Ledger : 30153016
+[]
+Ledger : 30153017
+[]
+Ledger : 30153018
+[]
+Ledger : 30153019
+[]
+Ledger : 30153020
+[]
+Ledger : 30153021
+[]
+Ledger : 30153022
+[]
+Ledger : 30153023
+[]
+Ledger : 30153024
+[]
+Ledger : 30153025
+[]
+Ledger : 30153026
+[]
+Ledger : 30153027
+[]
+Ledger : 30153028
+[]
+Ledger : 30153029
+[]
+Ledger : 30153030
+[]
+Ledger : 30153031
+[]
+Ledger : 30153032
+[]
+Ledger : 30153033
+[]
+Ledger : 30153034
+[]
+Ledger : 30153035
+[]
+Ledger : 30153036
+[]
+Ledger : 30153037
+[]
+Ledger : 30153038
+[]
+Ledger : 30153039
+[]
+Ledger : 30153040
+[]
+Ledger : 30153041
+[]
+Ledger : 30153042
+[]
+Ledger : 30153043
+[]
+Ledger : 30153044
+[]
+Ledger : 30153045
+[]
+Ledger : 30153046
+[]
+Ledger : 30153047
+[]
+Ledger : 30153048
+[]
+Ledger : 30153049
+[]
+Ledger : 30153050
+[]
+Ledger : 30153051
+[]
+Ledger : 30153052
+[]
+Ledger : 30153053
+[]
+Ledger : 30153054
+[]
+Ledger : 30153055
+[]
+Ledger : 30153056
+[]
+Ledger : 30153057
+[]
+Ledger : 30153058
+[]
+Ledger : 30153059
+[]
+Ledger : 30153060
+[]
+Ledger : 30153061
+[]
+Ledger : 30153062
+[]
+Ledger : 30153063
+[]
+Ledger : 30153064
+[]
+Ledger : 30153065
+[]
+Ledger : 30153066
+[]
+Ledger : 30153067
+[]
+Ledger : 30153068
+[]
+Ledger : 30153069
+[]
+Ledger : 30153070
+[]
+Ledger : 30153071
+[]
+Ledger : 30153072
+[]
+Ledger : 30153073
+[]
+Ledger : 30153074
+[]
+Ledger : 30153075
+[]
+Ledger : 30153076
+[]
+Ledger : 30153077
+[]
+Ledger : 30153078
+[]
+Ledger : 30153079
+[]
+Ledger : 30153080
+[]
+Ledger : 30153081
+[]
+Ledger : 30153082
+[]
+Ledger : 30153083
+[]
+Ledger : 30153084
+[]
+Ledger : 30153085
+[]
+Ledger : 30153086
+[]
+Ledger : 30153087
+[]
+Ledger : 30153088
+[]
+Ledger : 30153089
+[]
+Ledger : 30153090
+[]
+Ledger : 30153091
+[]
+Ledger : 30153092
+[]
+Ledger : 30153093
+[]
+Ledger : 30153094
+[]
+Ledger : 30153095
+[]
+Ledger : 30153096
+[]
+Ledger : 30153097
+[]
+Ledger : 30153098
+[]
+Ledger : 30153099
+[]
+Ledger : 30153100
+[]
+Ledger : 30153101
+[]
+Ledger : 30153102
+[]
+Ledger : 30153103
+[]
+Ledger : 30153104
+[]
+Ledger : 30153105
+[]
+Ledger : 30153106
+[]
+Ledger : 30153107
+[]
+Ledger : 30153108
+[]
+Ledger : 30153109
+[]
+Ledger : 30153110
+[]
+Ledger : 30153111
+[]
+Ledger : 30153112
+[]
+Ledger : 30153113
+[]
+Ledger : 30153114
+[]
+Ledger : 30153115
+[]
+Ledger : 30153116
+[]
+Ledger : 30153117
+[]
+Ledger : 30153118
+[]
+Ledger : 30153119
+[]
+Ledger : 30153120
+[]
+Ledger : 30153121
+[]
+Ledger : 30153122
+[]
+Ledger : 30153123
+[]
+Ledger : 30153124
+[]
+Ledger : 30153125
+[]
+Ledger : 30153126
+[]
+Ledger : 30153127
+[]
+Ledger : 30153128
+[]
+Ledger : 30153129
+[]
+Ledger : 30153130
+[]
+Ledger : 30153131
+[]
+Ledger : 30153132
+[]
+Ledger : 30153133
+[]
+Ledger : 30153134
+[]
+Ledger : 30153135
+[]
+Ledger : 30153136
+[]
+Ledger : 30153137
+[]
+Ledger : 30153138
+[]
+Ledger : 30153139
+[]
+Ledger : 30153140
+[]
+Ledger : 30153141
+[]
+Ledger : 30153142
+[]
+Ledger : 30153143
+[]
+Ledger : 30153144
+[]
+Ledger : 30153145
+[]
+Ledger : 30153146
+[]
+Ledger : 30153147
+[]
+Ledger : 30153148
+[]
+Ledger : 30153149
+[]
+Ledger : 30153150
+[]
+Ledger : 30153151
+[]
+Ledger : 30153152
+[]
+Ledger : 30153153
+[]
+Ledger : 30153154
+[]
+Ledger : 30153155
+[]
+Ledger : 30153156
+[]
+Ledger : 30153157
+[]
+Ledger : 30153158
+[]
+Ledger : 30153159
+[]
+Ledger : 30153160
+[]
+Ledger : 30153161
+[]
+Ledger : 30153162
+[]
+Ledger : 30153163
+[]
+Ledger : 30153164
+[]
+Ledger : 30153165
+[]
+Ledger : 30153166
+[]
+Ledger : 30153167
+[]
+Ledger : 30153168
+[]
+Ledger : 30153169
+[]
+Ledger : 30153170
+[]
+Ledger : 30153171
+[]
+Ledger : 30153172
+[]
+Ledger : 30153173
+[]
+Ledger : 30153174
+[]
+Ledger : 30153175
+[]
+Ledger : 30153176
+[]
+Ledger : 30153177
+[]
+Ledger : 30153178
+[]
+Ledger : 30153179
+[]
+Ledger : 30153180
+[]
+Ledger : 30153181
+[]
+Ledger : 30153182
+[]
+Ledger : 30153183
+[]
+Ledger : 30153184
+[]
+Ledger : 30153185
+[]
+Ledger : 30153186
+[]
+Ledger : 30153187
+[]
+Ledger : 30153188
+[]
+Ledger : 30153189
+[]
+Ledger : 30153190
+[]
+Ledger : 30153191
+[]
+Ledger : 30153192
+[]
+Ledger : 30153193
+[]
+Ledger : 30153194
+[]
+Ledger : 30153195
+[]
+Ledger : 30153196
+[]
+Ledger : 30153197
+[]
+Ledger : 30153198
+[]
+Ledger : 30153199
+[]
+Ledger : 30153200
+[]
+Ledger : 30153201
+[]
+Ledger : 30153202
+[]
+Ledger : 30153203
+[]
+Ledger : 30153204
+[]
+Ledger : 30153205
+[]
+Ledger : 30153206
+[]
+Ledger : 30153207
+[]
+Ledger : 30153208
+[]
+Ledger : 30153209
+[]
+Ledger : 30153210
+[]
+Ledger : 30153211
+[]
+Ledger : 30153212
+[]
+Ledger : 30153213
+[]
+Ledger : 30153214
+[]
+Ledger : 30153215
+[]
+Ledger : 30153216
+[]
+Ledger : 30153217
+[]
+Ledger : 30153218
+[]
+Ledger : 30153219
+[]
+Ledger : 30153220
+[]
+Ledger : 30153221
+[]
+Ledger : 30153222
+[]
+Ledger : 30153223
+[]
+Ledger : 30153224
+[]
+Ledger : 30153225
+[]
+Ledger : 30153226
+[]
+Ledger : 30153227
+[]
+Ledger : 30153228
+[]
+Ledger : 30153229
+[]
+Ledger : 30153230
+[]
+Ledger : 30153231
+[]
+Ledger : 30153232
+[]
+Ledger : 30153233
+[]
+Ledger : 30153234
+[]
+Ledger : 30153235
+[]
+Ledger : 30153236
+[]
+Ledger : 30153237
+[]
+Ledger : 30153238
+[]
+Ledger : 30153239
+[]
+Ledger : 30153240
+[]
+Ledger : 30153241
+[]
+Ledger : 30153242
+[]
+Ledger : 30153243
+[]
+Ledger : 30153244
+[]
+Ledger : 30153245
+[]
+Ledger : 30153246
+[]
+Ledger : 30153247
+[]
+Ledger : 30153248
+[]
+Ledger : 30153249
+[]
+Ledger : 30153250
+[]
+Ledger : 30153251
+[]
+Ledger : 30153252
+[]
+Ledger : 30153253
+[]
+Ledger : 30153254
+[]
+Ledger : 30153255
+[]
+Ledger : 30153256
+[]
+Ledger : 30153257
+[]
+Ledger : 30153258
+[]
+Ledger : 30153259
+[]
+Ledger : 30153260
+[]
+Ledger : 30153261
+[]
+Ledger : 30153262
+[]
+Ledger : 30153263
+[]
+Ledger : 30153264
+[]
+Ledger : 30153265
+[]
+Ledger : 30153266
+[]
+Ledger : 30153267
+[]
+Ledger : 30153268
+[]
+Ledger : 30153269
+[]
+Ledger : 30153270
+[]
+Ledger : 30153271
+[]
+Ledger : 30153272
+[]
+Ledger : 30153273
+[]
+Ledger : 30153274
+[]
+Ledger : 30153275
+[]
+Ledger : 30153276
+[]
+Ledger : 30153277
+[]
+Ledger : 30153278
+[]
+Ledger : 30153279
+[]
+Ledger : 30153280
+[]
+Ledger : 30153281
+[]
+Ledger : 30153282
+[]
+Ledger : 30153283
+[]
+Ledger : 30153284
+[]
+Ledger : 30153285
+[]
+Ledger : 30153286
+[]
+Ledger : 30153287
+[]
+Ledger : 30153288
+[]
+Ledger : 30153289
+[]
+Ledger : 30153290
+[]
+Ledger : 30153291
+[]
+Ledger : 30153292
+[]
+Ledger : 30153293
+[]
+Ledger : 30153294
+[]
+Ledger : 30153295
+[]
+Ledger : 30153296
+[]
+Ledger : 30153297
+[]
+Ledger : 30153298
+[]
+Ledger : 30153299
+[]
+Ledger : 30153300
+[]
+Ledger : 30153301
+[]
+Ledger : 30153302
+[]
+Ledger : 30153303
+[]
+Ledger : 30153304
+[]
+Ledger : 30153305
+[]
+Ledger : 30153306
+[]
+Ledger : 30153307
+[]
+Ledger : 30153308
+[]
+Ledger : 30153309
+[]
+Ledger : 30153310
+[]
+Ledger : 30153311
+[]
+Ledger : 30153312
+[]
+Ledger : 30153313
+[]
+Ledger : 30153314
+[]
+Ledger : 30153315
+[]
+Ledger : 30153316
+[]
+Ledger : 30153317
+[]
+Ledger : 30153318
+[]
+Ledger : 30153319
+[]
+Ledger : 30153320
+[]
+Ledger : 30153321
+[]
+Ledger : 30153322
+[]
+Ledger : 30153323
+[]
+Ledger : 30153324
+[]
+Ledger : 30153325
+[]
+Ledger : 30153326
+[]
+Ledger : 30153327
+[]
+Ledger : 30153328
+[]
+Ledger : 30153329
+[]
+Ledger : 30153330
+[]
+Ledger : 30153331
+[]
+Ledger : 30153332
+[]
+Ledger : 30153333
+[]
+Ledger : 30153334
+[]
+Ledger : 30153335
+[]
+Ledger : 30153336
+[]
+Ledger : 30153337
+[]
+Ledger : 30153338
+[]
+Ledger : 30153339
+[]
+Ledger : 30153340
+[]
+Ledger : 30153341
+[]
+Ledger : 30153342
+[]
+Ledger : 30153343
+[]
+Ledger : 30153344
+[]
+Ledger : 30153345
+[]
+Ledger : 30153346
+[]
+Ledger : 30153347
+[]
+Ledger : 30153348
+[]
+Ledger : 30153349
+[]
+Ledger : 30153350
+[]
+Ledger : 30153351
+[]
+Ledger : 30153352
+[]
+Ledger : 30153353
+[]
+Ledger : 30153354
+[]
+Ledger : 30153355
+[]
+Ledger : 30153356
+[]
+Ledger : 30153357
+[]
+Ledger : 30153358
+[]
+Ledger : 30153359
+[]
+Ledger : 30153360
+[]
+Ledger : 30153361
+[]
+Ledger : 30153362
+[]
+Ledger : 30153363
+[]
+Ledger : 30153364
+[]
+Ledger : 30153365
+[]
+Ledger : 30153366
+[]
+Ledger : 30153367
+[]
+Ledger : 30153368
+[]
+Ledger : 30153369
+[]
+Ledger : 30153370
+[]
+Ledger : 30153371
+[]
+Ledger : 30153372
+[]
+Ledger : 30153373
+[]
+Ledger : 30153374
+[]
+Ledger : 30153375
+[]
+Ledger : 30153376
+[]
+Ledger : 30153377
+[]
+Ledger : 30153378
+[]
+Ledger : 30153379
+[]
+Ledger : 30153380
+[]
+Ledger : 30153381
+[]
+Ledger : 30153382
+[]
+Ledger : 30153383
+[]
+Ledger : 30153384
+[]
+Ledger : 30153385
+[]
+Ledger : 30153386
+[]
+Ledger : 30153387
+[]
+Ledger : 30153388
+[]
+Ledger : 30153389
+[]
+Ledger : 30153390
+[]
+Ledger : 30153391
+[]
+Ledger : 30153392
+[]
+Ledger : 30153393
+[]
+Ledger : 30153394
+[]
+Ledger : 30153395
+[]
+Ledger : 30153396
+[]
+Ledger : 30153397
+[]
+Ledger : 30153398
+[]
+Ledger : 30153399
+[]
+Ledger : 30153400
+[]
+Ledger : 30153401
+[]
+Ledger : 30153402
+[]
+Ledger : 30153403
+[]
+Ledger : 30153404
+[]
+Ledger : 30153405
+[]
+Ledger : 30153406
+[]
+Ledger : 30153407
+[]
+Ledger : 30153408
+[]
+Ledger : 30153409
+[]
+Ledger : 30153410
+[]
+Ledger : 30153411
+[]
+Ledger : 30153412
+[]
+Ledger : 30153413
+[]
+Ledger : 30153414
+[]
+Ledger : 30153415
+[]
+Ledger : 30153416
+[]
+Ledger : 30153417
+[]
+Ledger : 30153418
+[]
+Ledger : 30153419
+[]
+Ledger : 30153420
+[]
+Ledger : 30153421
+[]
+Ledger : 30153422
+[]
+Ledger : 30153423
+[]
+Ledger : 30153424
+[]
+Ledger : 30153425
+[]
+Ledger : 30153426
+[]
+Ledger : 30153427
+[]
+Ledger : 30153428
+[]
+Ledger : 30153429
+[]
+Ledger : 30153430
+[]
+Ledger : 30153431
+[]
+Ledger : 30153432
+[]
+Ledger : 30153433
+[]
+Ledger : 30153434
+[]
+Ledger : 30153435
+[]
+Ledger : 30153436
+[]
+Ledger : 30153437
+[]
+Ledger : 30153438
+[]
+Ledger : 30153439
+[]
+Ledger : 30153440
+[]
+Ledger : 30153441
+[]
+Ledger : 30153442
+[]
+Ledger : 30153443
+[]
+Ledger : 30153444
+[]
+Ledger : 30153445
+[]
+Ledger : 30153446
+[]
+Ledger : 30153447
+[]
+Ledger : 30153448
+[]
+Ledger : 30153449
+[]
+Ledger : 30153450
+[]
+Ledger : 30153451
+[]
+Ledger : 30153452
+[]
+Ledger : 30153453
+[]
+Ledger : 30153454
+[]
+Ledger : 30153455
+[]
+Ledger : 30153456
+[]
+Ledger : 30153457
+[]
+Ledger : 30153458
+[]
+Ledger : 30153459
+[]
+Ledger : 30153460
+[]
+Ledger : 30153461
+[]
+Ledger : 30153462
+[]
+Ledger : 30153463
+[]
+Ledger : 30153464
+[]
+Ledger : 30153465
+[]
+Ledger : 30153466
+[]
+Ledger : 30153467
+[]
+Ledger : 30153468
+[]
+Ledger : 30153469
+[]
+Ledger : 30153470
+[]
+Ledger : 30153471
+[]
+Ledger : 30153472
+[]
+Ledger : 30153473
+[]
+Ledger : 30153474
+[]
+Ledger : 30153475
+[]
+Ledger : 30153476
+[]
+Ledger : 30153477
+[]
+Ledger : 30153478
+[]
+Ledger : 30153479
+[]
+Ledger : 30153480
+[]
+Ledger : 30153481
+[]
+Ledger : 30153482
+[]
+Ledger : 30153483
+[]
+Ledger : 30153484
+[]
+Ledger : 30153485
+[]
+Ledger : 30153486
+[]
+Ledger : 30153487
+[]
+Ledger : 30153488
+[]
+Ledger : 30153489
+[]
+Ledger : 30153490
+[]
+Ledger : 30153491
+[]
+Ledger : 30153492
+[]
+Ledger : 30153493
+[]
+Ledger : 30153494
+[]
+Ledger : 30153495
+[]
+Ledger : 30153496
+[]
+Ledger : 30153497
+[]
+Ledger : 30153498
+[]
+Ledger : 30153499
+[]
+Ledger : 30153500
+[]
+Ledger : 30153501
+[]
+Ledger : 30153502
+[]
+Ledger : 30153503
+[]
+Ledger : 30153504
+[]
+Ledger : 30153505
+[]
+Ledger : 30153506
+[]
+Ledger : 30153507
+[]
+Ledger : 30153508
+[]
+Ledger : 30153509
+[]
+Ledger : 30153510
+[]
+Ledger : 30153511
+[]
+Ledger : 30153512
+[]
+Ledger : 30153513
+[]
+Ledger : 30153514
+[]
+Ledger : 30153515
+[]
+Ledger : 30153516
+[]
+Ledger : 30153517
+[]
+Ledger : 30153518
+[]
+Ledger : 30153519
+[]
+Ledger : 30153520
+[]
+Ledger : 30153521
+[]
+Ledger : 30153522
+[]
+Ledger : 30153523
+[]
+Ledger : 30153524
+[]
+Ledger : 30153525
+[]
+Ledger : 30153526
+[]
+Ledger : 30153527
+[]
+Ledger : 30153528
+[]
+Ledger : 30153529
+[]
+Ledger : 30153530
+[]
+Ledger : 30153531
+[]
+Ledger : 30153532
+[]
+Ledger : 30153533
+[]
+Ledger : 30153534
+[]
+Ledger : 30153535
+[]
+Ledger : 30153536
+[]
+Ledger : 30153537
+[]
+Ledger : 30153538
+[]
+Ledger : 30153539
+[]
+Ledger : 30153540
+[]
+Ledger : 30153541
+[]
+Ledger : 30153542
+[]
+Ledger : 30153543
+[]
+Ledger : 30153544
+[]
+Ledger : 30153545
+[]
+Ledger : 30153546
+[]
+Ledger : 30153547
+[]
+Ledger : 30153548
+[]
+Ledger : 30153549
+[]
+Ledger : 30153550
+[]
+Ledger : 30153551
+[]
+Ledger : 30153552
+[]
+Ledger : 30153553
+[]
+Ledger : 30153554
+[]
+Ledger : 30153555
+[]
+Ledger : 30153556
+[]
+Ledger : 30153557
+[]
+Ledger : 30153558
+[]
+Ledger : 30153559
+[]
+Ledger : 30153560
+[]
+Ledger : 30153561
+[]
+Ledger : 30153562
+[]
+Ledger : 30153563
+[]
+Ledger : 30153564
+[]
+Ledger : 30153565
+[]
+Ledger : 30153566
+[]
+Ledger : 30153567
+[]
+Ledger : 30153568
+[]
+Ledger : 30153569
+[]
+Ledger : 30153570
+[]
+Ledger : 30153571
+[]
+Ledger : 30153572
+[]
+Ledger : 30153573
+[]
+Ledger : 30153574
+[]
+Ledger : 30153575
+[]
+Ledger : 30153576
+[]
+Ledger : 30153577
+[]
+Ledger : 30153578
+[]
+Ledger : 30153579
+[]
+Ledger : 30153580
+[]
+Ledger : 30153581
+[]
+Ledger : 30153582
+[]
+Ledger : 30153583
+[]
+Ledger : 30153584
+[]
+Ledger : 30153585
+[]
+Ledger : 30153586
+[]
+Ledger : 30153587
+[]
+Ledger : 30153588
+[]
+Ledger : 30153589
+[]
+Ledger : 30153590
+[]
+Ledger : 30153591
+[]
+Ledger : 30153592
+[]
+Ledger : 30153593
+[]
+Ledger : 30153594
+[]
+Ledger : 30153595
+[]
+Ledger : 30153596
+[]
+Ledger : 30153597
+[]
+Ledger : 30153598
+[]
+Ledger : 30153599
+[]
+Ledger : 30153600
+[]
+Ledger : 30153601
+[]
+Ledger : 30153602
+[]
+Ledger : 30153603
+[]
+Ledger : 30153604
+[]
+Ledger : 30153605
+[]
+Ledger : 30153606
+[]
+Ledger : 30153607
+[]
+Ledger : 30153608
+[]
+Ledger : 30153609
+[]
+Ledger : 30153610
+[]
+Ledger : 30153611
+[]
+Ledger : 30153612
+[]
+Ledger : 30153613
+[]
+Ledger : 30153614
+[]
+Ledger : 30153615
+[]
+Ledger : 30153616
+[]
+Ledger : 30153617
+[]
+Ledger : 30153618
+[]
+Ledger : 30153619
+[]
+Ledger : 30153620
+[]
+Ledger : 30153621
+[]
+Ledger : 30153622
+[]
+Ledger : 30153623
+[]
+Ledger : 30153624
+[]
+Ledger : 30153625
+[]
+Ledger : 30153626
+[]
+Ledger : 30153627
+[]
+Ledger : 30153628
+[]
+Ledger : 30153629
+[]
+Ledger : 30153630
+[]
+Ledger : 30153631
+[]
+Ledger : 30153632
+[]
+Ledger : 30153633
+[]
+Ledger : 30153634
+[]
+Ledger : 30153635
+[]
+Ledger : 30153636
+[]
+Ledger : 30153637
+[]
+Ledger : 30153638
+[]
+Ledger : 30153639
+[]
+Ledger : 30153640
+[]
+Ledger : 30153641
+[]
+Ledger : 30153642
+[]
+Ledger : 30153643
+[]
+Ledger : 30153644
+[]
+Ledger : 30153645
+[]
+Ledger : 30153646
+[]
+Ledger : 30153647
+[]
+Ledger : 30153648
+[]
+Ledger : 30153649
+[]
+Ledger : 30153650
+[]
+Ledger : 30153651
+[]
+Ledger : 30153652
+[]
+Ledger : 30153653
+[]
+Ledger : 30153654
+[]
+Ledger : 30153655
+[]
+Ledger : 30153656
+[]
+Ledger : 30153657
+[]
+Ledger : 30153658
+[]
+Ledger : 30153659
+[]
+Ledger : 30153660
+[]
+Ledger : 30153661
+[]
+Ledger : 30153662
+[]
+Ledger : 30153663
+[]
+Ledger : 30153664
+[]
+Ledger : 30153665
+[]
+Ledger : 30153666
+[]
+Ledger : 30153667
+[]
+Ledger : 30153668
+[]
+Ledger : 30153669
+[]
+Ledger : 30153670
+[]
+Ledger : 30153671
+[]
+Ledger : 30153672
+[]
+Ledger : 30153673
+[]
+Ledger : 30153674
+[]
+Ledger : 30153675
+[]
+Ledger : 30153676
+[]
+Ledger : 30153677
+[]
+Ledger : 30153678
+[]
+Ledger : 30153679
+[]
+Ledger : 30153680
+[]
+Ledger : 30153681
+[]
+Ledger : 30153682
+[]
+Ledger : 30153683
+[]
+Ledger : 30153684
+[]
+Ledger : 30153685
+[]
+Ledger : 30153686
+[]
+Ledger : 30153687
+[]
+Ledger : 30153688
+[]
+Ledger : 30153689
+[]
+Ledger : 30153690
+[]
+Ledger : 30153691
+[]
+Ledger : 30153692
+[]
+Ledger : 30153693
+[]
+Ledger : 30153694
+[]
+Ledger : 30153695
+[]
+Ledger : 30153696
+[]
+Ledger : 30153697
+Ledger : 30153698
+[]
+[]
+Ledger : 30153699
+[]
+Ledger : 30153700
+[]
+Ledger : 30153701
+[]
+Ledger : 30153702
+[]
+Ledger : 30153703
+[]
+Ledger : 30153704
+[]
+Ledger : 30153705
+[]
+Ledger : 30153706
+[]
+Ledger : 30153707
+[]
+Ledger : 30153708
+[]
+Ledger : 30153709
+[]
+Ledger : 30153710
+[]
+Ledger : 30153711
+[]
+Ledger : 30153712
+[]
+Ledger : 30153713
+[]
+Ledger : 30153714
+[]
+Ledger : 30153715
+[]
+Ledger : 30153716
+[]
+Ledger : 30153717
+[]
+Ledger : 30153718
+[]
+Ledger : 30153719
+[]
+Ledger : 30153720
+[]
+Ledger : 30153721
+[]
+Ledger : 30153722
+[]
+Ledger : 30153723
+[]
+Ledger : 30153724
+[]
+Ledger : 30153725
+[]
+Ledger : 30153726
+[]
+Ledger : 30153727
+[]
+Ledger : 30153728
+[]
+Ledger : 30153729
+[]
+Ledger : 30153730
+[]
+Ledger : 30153731
+[]
+Ledger : 30153732
+[]
+Ledger : 30153733
+[]
+Ledger : 30153734
+[]
+Ledger : 30153735
+[]
+Ledger : 30153736
+[]
+Ledger : 30153737
+[]
+Ledger : 30153738
+[]
+Ledger : 30153739
+[]
+Ledger : 30153740
+[]
+Ledger : 30153741
+[]
+Ledger : 30153742
+[]
+Ledger : 30153743
+[]
+Ledger : 30153744
+[]
+Ledger : 30153745
+[]
+Ledger : 30153746
+[]
+Ledger : 30153747
+[]
+Ledger : 30153748
+[]
+Ledger : 30153749
+[]
+Ledger : 30153750
+[]
+Ledger : 30153751
+[]
+Ledger : 30153752
+[]
+Ledger : 30153753
+[]
+Ledger : 30153754
+[]
+Ledger : 30153755
+[]
+Ledger : 30153756
+[]
+Ledger : 30153757
+[]
+Ledger : 30153758
+[]
+Ledger : 30153759
+[]
+Ledger : 30153760
+[]
+Ledger : 30153761
+[]
+Ledger : 30153762
+[]
+Ledger : 30153763
+[]
+Ledger : 30153764
+[]
+Ledger : 30153765
+[]
+Ledger : 30153766
+[]
+Ledger : 30153767
+[]
+Ledger : 30153768
+[]
+Ledger : 30153769
+[]
+Ledger : 30153770
+[]
+Ledger : 30153771
+[]
+Ledger : 30153772
+[]
+Ledger : 30153773
+[]
+Ledger : 30153774
+[]
+Ledger : 30153775
+[]
+Ledger : 30153776
+[]
+Ledger : 30153777
+[]
+Ledger : 30153778
+[]
+Ledger : 30153779
+[]
+Ledger : 30153780
+[]
+Ledger : 30153781
+[]
+Ledger : 30153782
+[]
+Ledger : 30153783
+[]
+Ledger : 30153784
+[]
+Ledger : 30153785
+[]
+Ledger : 30153786
+[]
+Ledger : 30153787
+[]
+Ledger : 30153788
+[]
+Ledger : 30153789
+[]
+Ledger : 30153790
+[]
+Ledger : 30153791
+[]
+Ledger : 30153792
+[]
+Ledger : 30153793
+[]
+Ledger : 30153794
+[]
+Ledger : 30153795
+[]
+Ledger : 30153796
+[]
+Ledger : 30153797
+[]
+Ledger : 30153798
+[]
+Ledger : 30153799
+[]
+Ledger : 30153800
+[]
+Ledger : 30153801
+[]
+Ledger : 30153802
+[]
+Ledger : 30153803
+[]
+Ledger : 30153804
+[]
+Ledger : 30153805
+[]
+Ledger : 30153806
+[]
+Ledger : 30153807
+[]
+Ledger : 30153808
+[]
+Ledger : 30153809
+[]
+Ledger : 30153810
+[]
+Ledger : 30153811
+[]
+Ledger : 30153812
+[]
+Ledger : 30153813
+[]
+Ledger : 30153814
+[]
+Ledger : 30153815
+[]
+Ledger : 30153816
+[]
+Ledger : 30153817
+[]
+Ledger : 30153818
+[]
+Ledger : 30153819
+[]
+Ledger : 30153820
+[]
+Ledger : 30153821
+[]
+Ledger : 30153822
+[]
+Ledger : 30153823
+[]
+Ledger : 30153824
+[]
+Ledger : 30153825
+[]
+Ledger : 30153826
+[]
+Ledger : 30153827
+[]
+Ledger : 30153828
+[]
+Ledger : 30153829
+[]
+Ledger : 30153830
+[]
+Ledger : 30153831
+[]
+Ledger : 30153832
+[]
+Ledger : 30153833
+[]
+Ledger : 30153834
+[]
+Ledger : 30153835
+[]
+Ledger : 30153836
+[]
+Ledger : 30153837
+[]
+Ledger : 30153838
+[]
+Ledger : 30153839
+[]
+Ledger : 30153840
+[]
+Ledger : 30153841
+[]
+Ledger : 30153842
+[]
+Ledger : 30153843
+[]
+Ledger : 30153844
+[]
+Ledger : 30153845
+[]
+Ledger : 30153846
+[]
+Ledger : 30153847
+[]
+Ledger : 30153848
+[]
+Ledger : 30153849
+[]
+Ledger : 30153850
+[]
+Ledger : 30153851
+[]
+Ledger : 30153852
+[]
+Ledger : 30153853
+[]
+Ledger : 30153854
+[]
+Ledger : 30153855
+[]
+Ledger : 30153856
+[]
+Ledger : 30153857
+[]
+Ledger : 30153858
+[]
+Ledger : 30153859
+[]
+Ledger : 30153860
+[]
+Ledger : 30153861
+[]
+Ledger : 30153862
+[]
+Ledger : 30153863
+[]
+Ledger : 30153864
+[]
+Ledger : 30153865
+[]
+Ledger : 30153866
+[]
+Ledger : 30153867
+[]
+Ledger : 30153868
+[]
+Ledger : 30153869
+[]
+Ledger : 30153870
+[]
+Ledger : 30153871
+[]
+Ledger : 30153872
+[]
+Ledger : 30153873
+[]
+Ledger : 30153874
+[]
+Ledger : 30153875
+[]
+Ledger : 30153876
+[]
+Ledger : 30153877
+[]
+Ledger : 30153878
+[]
+Ledger : 30153879
+[]
+Ledger : 30153880
+[]
+Ledger : 30153881
+[]
+Ledger : 30153882
+[]
+Ledger : 30153883
+[]
+Ledger : 30153884
+[]
+Ledger : 30153885
+[]
+Ledger : 30153886
+[]
+Ledger : 30153887
+[]
+Ledger : 30153888
+[]
+Ledger : 30153889
+[]
+Ledger : 30153890
+[]
+Ledger : 30153891
+[]
+Ledger : 30153892
+[]
+Ledger : 30153893
+[]
+Ledger : 30153894
+[]
+Ledger : 30153895
+[]
+Ledger : 30153896
+[]
+Ledger : 30153897
+[]
+Ledger : 30153898
+[]
+Ledger : 30153899
+[]
+Ledger : 30153900
+[]
+Ledger : 30153901
+[]
+Ledger : 30153902
+[]
+Ledger : 30153903
+[]
+Ledger : 30153904
+[]
+Ledger : 30153905
+[]
+Ledger : 30153906
+[]
+Ledger : 30153907
+[]
+Ledger : 30153908
+[]
+Ledger : 30153909
+[]
+Ledger : 30153910
+[]
+Ledger : 30153911
+[]
+Ledger : 30153912
+[]
+Ledger : 30153913
+[]
+Ledger : 30153914
+[]
+Ledger : 30153915
+[]
+Ledger : 30153916
+[]
+Ledger : 30153917
+[]
+Ledger : 30153918
+[]
+Ledger : 30153919
+[]
+Ledger : 30153920
+[]
+Ledger : 30153921
+[]
+Ledger : 30153922
+[]
+Ledger : 30153923
+[]
+Ledger : 30153924
+[]
+Ledger : 30153925
+[]
+Ledger : 30153926
+[]
+Ledger : 30153927
+[]
+Ledger : 30153928
+[]
+Ledger : 30153929
+[]
+Ledger : 30153930
+[]
+Ledger : 30153931
+[]
+Ledger : 30153932
+[]
+Ledger : 30153933
+[]
+Ledger : 30153934
+[]
+Ledger : 30153935
+[]
+Ledger : 30153936
+[]
+Ledger : 30153937
+[]
+Ledger : 30153938
+[]
+Ledger : 30153939
+[]
+Ledger : 30153940
+[]
+Ledger : 30153941
+[]
+Ledger : 30153942
+[]
+Ledger : 30153943
+[]
+Ledger : 30153944
+[]
+Ledger : 30153945
+[]
+Ledger : 30153946
+[]
+Ledger : 30153947
+[]
+Ledger : 30153948
+[]
+Ledger : 30153949
+[]
+Ledger : 30153950
+[]
+Ledger : 30153951
+[]
+Ledger : 30153952
+[]
+Ledger : 30153953
+[]
+Ledger : 30153954
+[]
+Ledger : 30153955
+[]
+Ledger : 30153956
+[]
+Ledger : 30153957
+[]
+Ledger : 30153958
+[]
+Ledger : 30153959
+[]
+Ledger : 30153960
+[]
+Ledger : 30153961
+[]
+Ledger : 30153962
+[]
+Ledger : 30153963
+[]
+Ledger : 30153964
+[]
+Ledger : 30153965
+[]
+Ledger : 30153966
+[]
+Ledger : 30153967
+[]
+Ledger : 30153968
+[]
+Ledger : 30153969
+[]
+Ledger : 30153970
+[]
+Ledger : 30153971
+[]
+Ledger : 30153972
+[]
+Ledger : 30153973
+[]

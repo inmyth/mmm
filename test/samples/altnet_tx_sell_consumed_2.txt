@@ -1,0 +1,14 @@
+[ { direction: 'sell',
+    quantity:
+     { currency: 'USD',
+       counterparty: 'rHjGuGDJvKQ2RSLj3WesnxVoKVVhbSwYQL',
+       value: '1' },
+    totalPrice: { currency: 'XRP', value: '5' },
+    sequence: 514,
+    status: 'partially-filled',
+    makerExchangeRate: '5' } ]
+{ direction: 'buy',
+  quantity: 9.095,
+  totalPrice: { currency: 'XRP', value: 4.8 },
+  passive: false,
+  fillOrKill: false }

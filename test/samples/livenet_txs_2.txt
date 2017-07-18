@@ -1,0 +1,1667 @@
+
+// sell order immediately taken
+[{
+	"type": "order",
+	"address": "raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf",
+	"sequence": 204,
+	"id": "584862D1EA2D0A4ECAD7E1094DD13DF696FB6FE9CFAAC11B2F4A802F46C4F146",
+	"specification": {
+		"direction": "sell",
+		"quantity": {
+			"currency": "XRP",
+			"value": "20"
+		},
+		"totalPrice": {
+			"currency": "JPY",
+			"value": "500",
+			"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+		}
+	},
+	"outcome": {
+		"result": "tesSUCCESS",
+		"timestamp": "2017-05-31T12:26:01.000Z",
+		"fee": "0.000012",
+		"balanceChanges": {
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "502"
+			}, {
+				"currency": "XRP",
+				"value": "-20.000012"
+			}],
+			"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS": [{
+				"counterparty": "raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf",
+				"currency": "JPY",
+				"value": "-502"
+			}, {
+				"counterparty": "ra3Peztyyrgy7hG8rUWzhXsc5f7rKzb7yi",
+				"currency": "JPY",
+				"value": "503.004"
+			}],
+			"ra3Peztyyrgy7hG8rUWzhXsc5f7rKzb7yi": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "-503.004"
+			}, {
+				"currency": "XRP",
+				"value": "20"
+			}]
+		},
+		"orderbookChanges": {
+			"ra3Peztyyrgy7hG8rUWzhXsc5f7rKzb7yi": [{
+				"direction": "buy",
+				"quantity": {
+					"currency": "XRP",
+					"value": "20"
+				},
+				"totalPrice": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "502"
+				},
+				"sequence": 2092,
+				"status": "partially-filled",
+				"makerExchangeRate": "0.0398406374501992"
+			}]
+		},
+		"ledgerVersion": 30159844,
+		"indexInLedger": 4
+	}
+}]
+
+// sell order taken
+[{
+	"type": "order",
+	"address": "rsPrWzpYp5jj278vHVgp1tMvbKdHAZGFbi",
+	"sequence": 6342575,
+	"id": "DC59AD69A02AA8617A2DF6819873F53B763C6F50A4960DB70C5FBD0D66CE8A97",
+	"specification": {
+		"direction": "buy",
+		"quantity": {
+			"currency": "XRP",
+			"value": "19017.622302"
+		},
+		"totalPrice": {
+			"currency": "JPY",
+			"value": "494655.963136015",
+			"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+		},
+		"immediateOrCancel": true
+	},
+	"outcome": {
+		"result": "tesSUCCESS",
+		"timestamp": "2017-05-31T12:30:21.000Z",
+		"fee": "0.025",
+		"balanceChanges": {
+			"rEMURL7MbvYvc2wAzXCAo5CM7f1h31zHpm": [{
+				"currency": "XRP",
+				"value": "-41.492553"
+			}, {
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "1078.806387225548"
+			}],
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "518"
+			}, {
+				"currency": "XRP",
+				"value": "-20"
+			}],
+			"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS": [{
+				"counterparty": "raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf",
+				"currency": "JPY",
+				"value": "-518"
+			}, {
+				"counterparty": "rsPrWzpYp5jj278vHVgp1tMvbKdHAZGFbi",
+				"currency": "JPY",
+				"value": "1600"
+			}, {
+				"counterparty": "rEMURL7MbvYvc2wAzXCAo5CM7f1h31zHpm",
+				"currency": "JPY",
+				"value": "-1078.806387225548"
+			}],
+			"rsPrWzpYp5jj278vHVgp1tMvbKdHAZGFbi": [{
+				"currency": "XRP",
+				"value": "61.467553"
+			}, {
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "-1600"
+			}]
+		},
+		"orderbookChanges": {
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"direction": "sell",
+				"quantity": {
+					"currency": "XRP",
+					"value": "20"
+				},
+				"totalPrice": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "518"
+				},
+				"sequence": 205,
+				"status": "filled",
+				"makerExchangeRate": "25.9"
+			}],
+			"rEMURL7MbvYvc2wAzXCAo5CM7f1h31zHpm": [{
+				"direction": "sell",
+				"quantity": {
+					"currency": "XRP",
+					"value": "41.492553"
+				},
+				"totalPrice": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "1078.806387225"
+				},
+				"sequence": 53,
+				"status": "partially-filled",
+				"makerExchangeRate": "26"
+			}]
+		},
+		"ledgerVersion": 30159918,
+		"indexInLedger": 5
+	}
+}]
+
+// buy order placed
+[{
+	"type": "order",
+	"address": "raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf",
+	"sequence": 206,
+	"id": "6C5469F9E25FF44655192987225B3C946A85FA87A3F2448DDD0EEB3686AEDE09",
+	"specification": {
+		"direction": "buy",
+		"quantity": {
+			"currency": "XRP",
+			"value": "20"
+		},
+		"totalPrice": {
+			"currency": "JPY",
+			"value": "504",
+			"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+		}
+	},
+	"outcome": {
+		"result": "tesSUCCESS",
+		"timestamp": "2017-05-31T12:33:20.000Z",
+		"fee": "0.000012",
+		"balanceChanges": {
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"currency": "XRP",
+				"value": "-0.000012"
+			}]
+		},
+		"orderbookChanges": {
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"direction": "buy",
+				"quantity": {
+					"currency": "XRP",
+					"value": "20"
+				},
+				"totalPrice": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "504"
+				},
+				"sequence": 206,
+				"status": "created",
+				"makerExchangeRate": "0.03968253968253968"
+			}]
+		},
+		"ledgerVersion": 30159966,
+		"indexInLedger": 2
+	}
+}]
+
+//sell immediately taken
+[{
+	"type": "order",
+	"address": "raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf",
+	"sequence": 207,
+	"id": "8642ED34A91140646A33FB602CB785BED22B0448B8E87705C67A3B9D77972D08",
+	"specification": {
+		"direction": "sell",
+		"quantity": {
+			"currency": "XRP",
+			"value": "20"
+		},
+		"totalPrice": {
+			"currency": "JPY",
+			"value": "516",
+			"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+		}
+	},
+	"outcome": {
+		"result": "tesSUCCESS",
+		"timestamp": "2017-05-31T12:37:40.000Z",
+		"fee": "0.000012",
+		"balanceChanges": {
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "519.79999999999"
+			}, {
+				"currency": "XRP",
+				"value": "-20.000012"
+			}],
+			"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS": [{
+				"counterparty": "raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf",
+				"currency": "JPY",
+				"value": "-519.79999999999"
+			}, {
+				"counterparty": "rng3jRT77hkuqpwn7wnTJZM4TvX4e9J879",
+				"currency": "JPY",
+				"value": "520.83959999999"
+			}],
+			"rng3jRT77hkuqpwn7wnTJZM4TvX4e9J879": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "-520.83959999999"
+			}, {
+				"currency": "XRP",
+				"value": "20"
+			}]
+		},
+		"orderbookChanges": {
+			"rng3jRT77hkuqpwn7wnTJZM4TvX4e9J879": [{
+				"direction": "buy",
+				"quantity": {
+					"currency": "XRP",
+					"value": "20"
+				},
+				"totalPrice": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "519.799999999999"
+				},
+				"sequence": 7,
+				"status": "partially-filled",
+				"makerExchangeRate": "0.03847633705271259"
+			}]
+		},
+		"ledgerVersion": 30160038,
+		"indexInLedger": 4
+	}
+}]
+
+// sell immediately taken
+[{
+	"type": "order",
+	"address": "raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf",
+	"sequence": 208,
+	"id": "38F31CBF6A747EC35670646E0144CB24454D5B1B0E13C96F2CA7EF65EF98D381",
+	"specification": {
+		"direction": "sell",
+		"quantity": {
+			"currency": "XRP",
+			"value": "20"
+		},
+		"totalPrice": {
+			"currency": "JPY",
+			"value": "516",
+			"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+		}
+	},
+	"outcome": {
+		"result": "tesSUCCESS",
+		"timestamp": "2017-05-31T12:39:31.000Z",
+		"fee": "0.000012",
+		"balanceChanges": {
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "519.79999999999"
+			}, {
+				"currency": "XRP",
+				"value": "-20.000012"
+			}],
+			"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS": [{
+				"counterparty": "raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf",
+				"currency": "JPY",
+				"value": "-519.79999999999"
+			}, {
+				"counterparty": "rng3jRT77hkuqpwn7wnTJZM4TvX4e9J879",
+				"currency": "JPY",
+				"value": "520.83959999999"
+			}],
+			"rng3jRT77hkuqpwn7wnTJZM4TvX4e9J879": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "-520.83959999999"
+			}, {
+				"currency": "XRP",
+				"value": "20"
+			}]
+		},
+		"orderbookChanges": {
+			"rng3jRT77hkuqpwn7wnTJZM4TvX4e9J879": [{
+				"direction": "buy",
+				"quantity": {
+					"currency": "XRP",
+					"value": "20"
+				},
+				"totalPrice": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "519.799999999999"
+				},
+				"sequence": 7,
+				"status": "partially-filled",
+				"makerExchangeRate": "0.03847633705271259"
+			}]
+		},
+		"ledgerVersion": 30160069,
+		"indexInLedger": 22
+	}
+}]
+//sell placed
+[{
+	"type": "order",
+	"address": "raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf",
+	"sequence": 209,
+	"id": "E2E9316069519D04BF37619ED14172C446B9C0FF296B4667513647621C0E157C",
+	"specification": {
+		"direction": "sell",
+		"quantity": {
+			"currency": "XRP",
+			"value": "20"
+		},
+		"totalPrice": {
+			"currency": "JPY",
+			"value": "530",
+			"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+		}
+	},
+	"outcome": {
+		"result": "tesSUCCESS",
+		"timestamp": "2017-05-31T12:41:40.000Z",
+		"fee": "0.000012",
+		"balanceChanges": {
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"currency": "XRP",
+				"value": "-0.000012"
+			}]
+		},
+		"orderbookChanges": {
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"direction": "buy",
+				"quantity": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "530"
+				},
+				"totalPrice": {
+					"currency": "XRP",
+					"value": "20"
+				},
+				"sequence": 209,
+				"status": "created",
+				"makerExchangeRate": "26.5"
+			}]
+		},
+		"ledgerVersion": 30160104,
+		"indexInLedger": 0
+	}
+}]
+
+//sell immediately taken
+[{
+	"type": "order",
+	"address": "rGFBwHHF6Sh5hScVtn6bRrYpB4bczyjHEJ",
+	"sequence": 10516833,
+	"id": "BBC1854AD2F5A09668E145F989EB885E3FA6D72B4A6EA53A507AAFD33EB964DA",
+	"specification": {
+		"direction": "buy",
+		"quantity": {
+			"currency": "BTC",
+			"value": "0.28",
+			"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+		},
+		"totalPrice": {
+			"currency": "JPY",
+			"value": "74247.1786",
+			"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+		}
+	},
+	"outcome": {
+		"result": "tesSUCCESS",
+		"timestamp": "2017-05-31T12:43:31.000Z",
+		"fee": "0.01",
+		"balanceChanges": {
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "516"
+			}, {
+				"currency": "XRP",
+				"value": "-20"
+			}],
+			"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS": [{
+				"counterparty": "raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf",
+				"currency": "JPY",
+				"value": "-516"
+			}, {
+				"counterparty": "rGFBwHHF6Sh5hScVtn6bRrYpB4bczyjHEJ",
+				"currency": "JPY",
+				"value": "517.032"
+			}, {
+				"counterparty": "rGFBwHHF6Sh5hScVtn6bRrYpB4bczyjHEJ",
+				"currency": "BTC",
+				"value": "-0.0019516393448"
+			}, {
+				"counterparty": "r9hNR8G9nARPL7LSAQoLv5EZdVjHBiXr7Q",
+				"currency": "BTC",
+				"value": "0.0019555426235632"
+			}],
+			"rGFBwHHF6Sh5hScVtn6bRrYpB4bczyjHEJ": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "-517.032"
+			}, {
+				"currency": "XRP",
+				"value": "-0.01"
+			}, {
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "BTC",
+				"value": "0.0019516393448"
+			}],
+			"r9hNR8G9nARPL7LSAQoLv5EZdVjHBiXr7Q": [{
+				"currency": "XRP",
+				"value": "20"
+			}, {
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "BTC",
+				"value": "-0.0019555426235632"
+			}]
+		},
+		"orderbookChanges": {
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"direction": "sell",
+				"quantity": {
+					"currency": "XRP",
+					"value": "20"
+				},
+				"totalPrice": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "516"
+				},
+				"sequence": 210,
+				"status": "filled",
+				"makerExchangeRate": "25.8"
+			}],
+			"r9hNR8G9nARPL7LSAQoLv5EZdVjHBiXr7Q": [{
+				"direction": "buy",
+				"quantity": {
+					"currency": "XRP",
+					"value": "20"
+				},
+				"totalPrice": {
+					"currency": "BTC",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "0.0019516393448735"
+				},
+				"sequence": 251496,
+				"status": "partially-filled",
+				"makerExchangeRate": "10247.79504088971"
+			}],
+			"rGFBwHHF6Sh5hScVtn6bRrYpB4bczyjHEJ": [{
+				"direction": "buy",
+				"quantity": {
+					"currency": "BTC",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "0.2780483606551265"
+				},
+				"totalPrice": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "73729.66533213711"
+				},
+				"sequence": 10516833,
+				"status": "created",
+				"makerExchangeRate": "0.000003771187071073432"
+			}]
+		},
+		"ledgerVersion": 30160135,
+		"indexInLedger": 0
+	}
+}]
+
+// sell placed
+[{
+	"type": "order",
+	"address": "raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf",
+	"sequence": 212,
+	"id": "52CC5A3697FEC2EA15DEE8B493F53D48A7AE841E7CE6517E315140174DAB176B",
+	"specification": {
+		"direction": "sell",
+		"quantity": {
+			"currency": "XRP",
+			"value": "20"
+		},
+		"totalPrice": {
+			"currency": "JPY",
+			"value": "509.7999999999999",
+			"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+		}
+	},
+	"outcome": {
+		"result": "tesSUCCESS",
+		"timestamp": "2017-05-31T12:48:00.000Z",
+		"fee": "0.000012",
+		"balanceChanges": {
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"currency": "XRP",
+				"value": "-0.000012"
+			}]
+		},
+		"orderbookChanges": {
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"direction": "buy",
+				"quantity": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "509.7999999999999"
+				},
+				"totalPrice": {
+					"currency": "XRP",
+					"value": "20"
+				},
+				"sequence": 212,
+				"status": "created",
+				"makerExchangeRate": "25.48999999999999"
+			}]
+		},
+		"ledgerVersion": 30160208,
+		"indexInLedger": 12
+	}
+}]
+
+// sell taken
+[{
+	"type": "order",
+	"address": "rEr3hxu5aim5tDWwH7H8BK47K91tR8c7FM",
+	"sequence": 46544815,
+	"id": "39439B2861786FDCECA598CBADDA894FC04BB3A771BCEBE9BA4AEBC599E84B11",
+	"specification": {
+		"direction": "buy",
+		"quantity": {
+			"currency": "XRP",
+			"value": "8288.780561"
+		},
+		"totalPrice": {
+			"currency": "JPY",
+			"value": "211368.1315856861",
+			"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+		},
+		"immediateOrCancel": true
+	},
+	"outcome": {
+		"result": "tesSUCCESS",
+		"timestamp": "2017-05-31T12:49:41.000Z",
+		"fee": "0.013",
+		"balanceChanges": {
+			"rEMURL7MbvYvc2wAzXCAo5CM7f1h31zHpm": [{
+				"currency": "XRP",
+				"value": "-586.182882"
+			}, {
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "14947.6635137814"
+			}],
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "509.79999999999"
+			}, {
+				"currency": "XRP",
+				"value": "-20"
+			}],
+			"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS": [{
+				"counterparty": "raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf",
+				"currency": "JPY",
+				"value": "-509.79999999999"
+			}, {
+				"counterparty": "rEr3hxu5aim5tDWwH7H8BK47K91tR8c7FM",
+				"currency": "JPY",
+				"value": "15488.37844080899"
+			}, {
+				"counterparty": "rEMURL7MbvYvc2wAzXCAo5CM7f1h31zHpm",
+				"currency": "JPY",
+				"value": "-14947.6635137814"
+			}],
+			"rEr3hxu5aim5tDWwH7H8BK47K91tR8c7FM": [{
+				"currency": "XRP",
+				"value": "606.169882"
+			}, {
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "-15488.37844080899"
+			}]
+		},
+		"orderbookChanges": {
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"direction": "sell",
+				"quantity": {
+					"currency": "XRP",
+					"value": "20"
+				},
+				"totalPrice": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "509.7999999999999"
+				},
+				"sequence": 212,
+				"status": "filled",
+				"makerExchangeRate": "25.48999999999999"
+			}],
+			"rEMURL7MbvYvc2wAzXCAo5CM7f1h31zHpm": [{
+				"direction": "sell",
+				"quantity": {
+					"currency": "XRP",
+					"value": "586.182882"
+				},
+				"totalPrice": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "14947.6635137814"
+				},
+				"sequence": 55,
+				"status": "partially-filled",
+				"makerExchangeRate": "25.5"
+			}]
+		},
+		"ledgerVersion": 30160236,
+		"indexInLedger": 6
+	}
+}]
+
+// buy taken
+[{
+	"type": "payment",
+	"address": "rMxwZqMxv7UMg8QFvpnLmHxMvcLCKGLcjy",
+	"sequence": 21,
+	"id": "74E377C84E11B221196B505DC7F2B63E104AC55A6A57424C179BA57D8E529642",
+	"specification": {
+		"source": {
+			"address": "rMxwZqMxv7UMg8QFvpnLmHxMvcLCKGLcjy",
+			"maxAmount": {
+				"currency": "XRP",
+				"value": "2393.997478"
+			}
+		},
+		"destination": {
+			"address": "rMxwZqMxv7UMg8QFvpnLmHxMvcLCKGLcjy",
+			"amount": {
+				"currency": "JPY",
+				"value": "60000"
+			}
+		},
+		"paths": "[[{\"currency\":\"CNY\",\"issuer\":\"rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y\",\"type\":48,\"type_hex\":\"0000000000000030\"},{\"currency\":\"JPY\",\"issuer\":\"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS\",\"type\":48,\"type_hex\":\"0000000000000030\"},{\"account\":\"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS\",\"type\":1,\"type_hex\":\"0000000000000001\"}],[{\"currency\":\"JPY\",\"issuer\":\"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS\",\"type\":48,\"type_hex\":\"0000000000000030\"},{\"account\":\"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS\",\"type\":1,\"type_hex\":\"0000000000000001\"}],[{\"currency\":\"CNY\",\"issuer\":\"razqQKzJRdB4UxFPWf5NEpEG3WMkmwgcXA\",\"type\":48,\"type_hex\":\"0000000000000030\"},{\"currency\":\"JPY\",\"issuer\":\"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS\",\"type\":48,\"type_hex\":\"0000000000000030\"},{\"account\":\"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS\",\"type\":1,\"type_hex\":\"0000000000000001\"}],[{\"currency\":\"BTC\",\"issuer\":\"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS\",\"type\":48,\"type_hex\":\"0000000000000030\"},{\"currency\":\"JPY\",\"issuer\":\"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS\",\"type\":48,\"type_hex\":\"0000000000000030\"},{\"account\":\"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS\",\"type\":1,\"type_hex\":\"0000000000000001\"}]]"
+	},
+	"outcome": {
+		"result": "tesSUCCESS",
+		"timestamp": "2017-05-31T12:49:50.000Z",
+		"fee": "0.000012",
+		"balanceChanges": {
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "-506.8"
+			}, {
+				"currency": "XRP",
+				"value": "20"
+			}],
+			"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS": [{
+				"counterparty": "raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf",
+				"currency": "JPY",
+				"value": "506.8"
+			}, {
+				"counterparty": "rUccs6vMQeoRQUNGR9hMSqEab1TAA6aFMM",
+				"currency": "JPY",
+				"value": "4000"
+			}, {
+				"counterparty": "rMxwZqMxv7UMg8QFvpnLmHxMvcLCKGLcjy",
+				"currency": "JPY",
+				"value": "-59999.99999999998"
+			}, {
+				"counterparty": "rG7eucYLyK39JjptdTksiKKdGEPGSFPeW3",
+				"currency": "JPY",
+				"value": "25658.29346259384"
+			}, {
+				"counterparty": "rUY4bFSz4y6gsGvedGmKoLngMnvMoawej6",
+				"currency": "JPY",
+				"value": "12064.8570829345"
+			}, {
+				"counterparty": "r9y9CpXx7TqnMkc22Z7HH9eqKtQmTJWFMM",
+				"currency": "JPY",
+				"value": "7890.04945447166"
+			}, {
+				"counterparty": "rpw2kcY75Dh939xTD4G4ZY5FyEWqYHetJT",
+				"currency": "JPY",
+				"value": "10000"
+			}],
+			"r9Vv4yJeVFYqLBuZ85muKmxHvPzmZUDFMM": [{
+				"currency": "XRP",
+				"value": "6.043436"
+			}, {
+				"counterparty": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y",
+				"currency": "CNY",
+				"value": "-10"
+			}],
+			"rUccs6vMQeoRQUNGR9hMSqEab1TAA6aFMM": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "-4000"
+			}, {
+				"counterparty": "razqQKzJRdB4UxFPWf5NEpEG3WMkmwgcXA",
+				"currency": "CNY",
+				"value": "261.34394310812"
+			}],
+			"rH5whoLLE4pesPkfMF5isw1X7qbqvRaLxB": [{
+				"counterparty": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y",
+				"currency": "CNY",
+				"value": "-1940.7491501928"
+			}, {
+				"currency": "XRP",
+				"value": "1172.382146"
+			}],
+			"rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y": [{
+				"counterparty": "rH5whoLLE4pesPkfMF5isw1X7qbqvRaLxB",
+				"currency": "CNY",
+				"value": "1940.7491501928"
+			}, {
+				"counterparty": "r9Vv4yJeVFYqLBuZ85muKmxHvPzmZUDFMM",
+				"currency": "CNY",
+				"value": "10"
+			}, {
+				"counterparty": "r9y9CpXx7TqnMkc22Z7HH9eqKtQmTJWFMM",
+				"currency": "CNY",
+				"value": "-514.9343699549"
+			}, {
+				"counterparty": "rUY4bFSz4y6gsGvedGmKoLngMnvMoawej6",
+				"currency": "CNY",
+				"value": "-784.81478023799"
+			}, {
+				"counterparty": "rpw2kcY75Dh939xTD4G4ZY5FyEWqYHetJT",
+				"currency": "CNY",
+				"value": "-651"
+			}],
+			"razqQKzJRdB4UxFPWf5NEpEG3WMkmwgcXA": [{
+				"counterparty": "rUccs6vMQeoRQUNGR9hMSqEab1TAA6aFMM",
+				"currency": "CNY",
+				"value": "-261.34394310812"
+			}, {
+				"counterparty": "rKc8zrbTcqxadHNi8pV7aTNeGta7NuvqSV",
+				"currency": "CNY",
+				"value": "261.34394310812"
+			}],
+			"rMxwZqMxv7UMg8QFvpnLmHxMvcLCKGLcjy": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "59999.99999999998"
+			}, {
+				"currency": "XRP",
+				"value": "-2370.482696"
+			}],
+			"rG7eucYLyK39JjptdTksiKKdGEPGSFPeW3": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "-25658.29346259384"
+			}, {
+				"currency": "XRP",
+				"value": "1014.060388"
+			}],
+			"rKc8zrbTcqxadHNi8pV7aTNeGta7NuvqSV": [{
+				"currency": "XRP",
+				"value": "157.996714"
+			}, {
+				"counterparty": "razqQKzJRdB4UxFPWf5NEpEG3WMkmwgcXA",
+				"currency": "CNY",
+				"value": "-261.34394310812"
+			}],
+			"rUY4bFSz4y6gsGvedGmKoLngMnvMoawej6": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "-12064.8570829345"
+			}, {
+				"counterparty": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y",
+				"currency": "CNY",
+				"value": "784.81478023799"
+			}],
+			"r9y9CpXx7TqnMkc22Z7HH9eqKtQmTJWFMM": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "-7890.04945447166"
+			}, {
+				"counterparty": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y",
+				"currency": "CNY",
+				"value": "514.9343699549"
+			}],
+			"rpw2kcY75Dh939xTD4G4ZY5FyEWqYHetJT": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "-10000"
+			}, {
+				"counterparty": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y",
+				"currency": "CNY",
+				"value": "651"
+			}]
+		},
+		"orderbookChanges": {
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"direction": "buy",
+				"quantity": {
+					"currency": "XRP",
+					"value": "20"
+				},
+				"totalPrice": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "506.8"
+				},
+				"sequence": 211,
+				"status": "filled",
+				"makerExchangeRate": "0.03946329913180742"
+			}],
+			"r9y9CpXx7TqnMkc22Z7HH9eqKtQmTJWFMM": [{
+				"direction": "buy",
+				"quantity": {
+					"currency": "CNY",
+					"counterparty": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y",
+					"value": "261.2479947009091"
+				},
+				"totalPrice": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "3999.999999999972"
+				},
+				"sequence": 225113,
+				"status": "filled",
+				"makerExchangeRate": "0.06531199867522773"
+			}, {
+				"direction": "buy",
+				"quantity": {
+					"currency": "CNY",
+					"counterparty": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y",
+					"value": "253.6863752541453"
+				},
+				"totalPrice": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "3890.049454471707"
+				},
+				"sequence": 225129,
+				"status": "filled",
+				"makerExchangeRate": "0.06521417740911407"
+			}],
+			"rpw2kcY75Dh939xTD4G4ZY5FyEWqYHetJT": [{
+				"direction": "sell",
+				"quantity": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "2000"
+				},
+				"totalPrice": {
+					"currency": "CNY",
+					"counterparty": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y",
+					"value": "129.8"
+				},
+				"sequence": 2055665,
+				"status": "filled",
+				"makerExchangeRate": "0.0649"
+			}, {
+				"direction": "sell",
+				"quantity": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "2000"
+				},
+				"totalPrice": {
+					"currency": "CNY",
+					"counterparty": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y",
+					"value": "130.6"
+				},
+				"sequence": 2055312,
+				"status": "filled",
+				"makerExchangeRate": "0.0653"
+			}, {
+				"direction": "sell",
+				"quantity": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "2000"
+				},
+				"totalPrice": {
+					"currency": "CNY",
+					"counterparty": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y",
+					"value": "130.4"
+				},
+				"sequence": 2055313,
+				"status": "filled",
+				"makerExchangeRate": "0.0652"
+			}, {
+				"direction": "sell",
+				"quantity": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "2000"
+				},
+				"totalPrice": {
+					"currency": "CNY",
+					"counterparty": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y",
+					"value": "130"
+				},
+				"sequence": 2055660,
+				"status": "filled",
+				"makerExchangeRate": "0.065"
+			}, {
+				"direction": "sell",
+				"quantity": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "2000"
+				},
+				"totalPrice": {
+					"currency": "CNY",
+					"counterparty": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y",
+					"value": "130.2"
+				},
+				"sequence": 2055659,
+				"status": "filled",
+				"makerExchangeRate": "0.0651"
+			}],
+			"rG7eucYLyK39JjptdTksiKKdGEPGSFPeW3": [{
+				"direction": "sell",
+				"quantity": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "25658.29346259384"
+				},
+				"totalPrice": {
+					"currency": "XRP",
+					"value": "1014.060388"
+				},
+				"sequence": 8597,
+				"status": "partially-filled",
+				"makerExchangeRate": "0.03952173940946118"
+			}],
+			"rUY4bFSz4y6gsGvedGmKoLngMnvMoawej6": [{
+				"direction": "sell",
+				"quantity": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "6046.338564415993"
+				},
+				"totalPrice": {
+					"currency": "CNY",
+					"counterparty": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y",
+					"value": "392.4073728305979"
+				},
+				"sequence": 100751,
+				"status": "filled",
+				"makerExchangeRate": "0.06489999999999999"
+			}, {
+				"direction": "sell",
+				"quantity": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "6018.518518518519"
+				},
+				"totalPrice": {
+					"currency": "CNY",
+					"counterparty": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y",
+					"value": "392.4074074074074"
+				},
+				"sequence": 100747,
+				"status": "filled",
+				"makerExchangeRate": "0.06519999999999999"
+			}],
+			"rKc8zrbTcqxadHNi8pV7aTNeGta7NuvqSV": [{
+				"direction": "buy",
+				"quantity": {
+					"currency": "XRP",
+					"value": "157.996714"
+				},
+				"totalPrice": {
+					"currency": "CNY",
+					"counterparty": "razqQKzJRdB4UxFPWf5NEpEG3WMkmwgcXA",
+					"value": "261.343943108124"
+				},
+				"sequence": 4876,
+				"status": "partially-filled",
+				"makerExchangeRate": "0.6045547152245014"
+			}],
+			"rH5whoLLE4pesPkfMF5isw1X7qbqvRaLxB": [{
+				"direction": "buy",
+				"quantity": {
+					"currency": "XRP",
+					"value": "124.741026"
+				},
+				"totalPrice": {
+					"currency": "CNY",
+					"counterparty": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y",
+					"value": "206.321656020052"
+				},
+				"sequence": 399,
+				"status": "partially-filled",
+				"makerExchangeRate": "0.6045949214026602"
+			}, {
+				"direction": "buy",
+				"quantity": {
+					"currency": "XRP",
+					"value": "1047.64112"
+				},
+				"totalPrice": {
+					"currency": "CNY",
+					"counterparty": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y",
+					"value": "1734.427494173006"
+				},
+				"sequence": 400,
+				"status": "filled",
+				"makerExchangeRate": "0.6040270483312243"
+			}],
+			"r9Vv4yJeVFYqLBuZ85muKmxHvPzmZUDFMM": [{
+				"direction": "buy",
+				"quantity": {
+					"currency": "XRP",
+					"value": "6.043436"
+				},
+				"totalPrice": {
+					"currency": "CNY",
+					"counterparty": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y",
+					"value": "10"
+				},
+				"sequence": 202136,
+				"status": "filled",
+				"makerExchangeRate": "0.6043436"
+			}],
+			"rUccs6vMQeoRQUNGR9hMSqEab1TAA6aFMM": [{
+				"direction": "buy",
+				"quantity": {
+					"currency": "CNY",
+					"counterparty": "razqQKzJRdB4UxFPWf5NEpEG3WMkmwgcXA",
+					"value": "261.3439431081245"
+				},
+				"totalPrice": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "4000"
+				},
+				"sequence": 66751,
+				"status": "filled",
+				"makerExchangeRate": "0.06533598577703113"
+			}]
+		},
+		"ledgerVersion": 30160238,
+		"indexInLedger": 1,
+		"deliveredAmount": {
+			"currency": "JPY",
+			"value": "60000",
+			"counterparty": "rMxwZqMxv7UMg8QFvpnLmHxMvcLCKGLcjy"
+		}
+	}
+}]
+
+//order cancel
+
+[{
+	"type": "orderCancellation",
+	"address": "raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf",
+	"sequence": 214,
+	"id": "340E2ED0F39D97D7D5B0713D5E3270E203A0288983EEF46343397704FB1821FF",
+	"specification": {
+		"orderSequence": 209
+	},
+	"outcome": {
+		"result": "tesSUCCESS",
+		"timestamp": "2017-05-31T13:37:32.000Z",
+		"fee": "0.000012",
+		"balanceChanges": {
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"currency": "XRP",
+				"value": "-0.000012"
+			}]
+		},
+		"orderbookChanges": {
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"direction": "sell",
+				"quantity": {
+					"currency": "XRP",
+					"value": "20"
+				},
+				"totalPrice": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "530"
+				},
+				"sequence": 209,
+				"status": "cancelled",
+				"makerExchangeRate": "26.5"
+			}]
+		},
+		"ledgerVersion": 30161040,
+		"indexInLedger": 13
+	}
+}]
+// sell taken
+[{
+	"type": "order",
+	"address": "rJnLWBdTReTcA2iRNmUgA1syZCgnH6CXnB",
+	"sequence": 2,
+	"id": "CEF502F0F09AFAF75AF15A81CE15B892C35FF5FD0B1E68060DECA42BFAFC9EC9",
+	"specification": {
+		"direction": "buy",
+		"quantity": {
+			"currency": "XRP",
+			"value": "1149"
+		},
+		"totalPrice": {
+			"currency": "JPY",
+			"value": "29977.41",
+			"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+		}
+	},
+	"outcome": {
+		"result": "tesSUCCESS",
+		"timestamp": "2017-05-31T13:45:01.000Z",
+		"fee": "0.000012",
+		"balanceChanges": {
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "1304.5"
+			}, {
+				"currency": "XRP",
+				"value": "-50"
+			}],
+			"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS": [{
+				"counterparty": "raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf",
+				"currency": "JPY",
+				"value": "-1304.5"
+			}, {
+				"counterparty": "rJnLWBdTReTcA2iRNmUgA1syZCgnH6CXnB",
+				"currency": "JPY",
+				"value": "1307.109"
+			}],
+			"rJnLWBdTReTcA2iRNmUgA1syZCgnH6CXnB": [{
+				"currency": "XRP",
+				"value": "49.999988"
+			}, {
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "-1307.109"
+			}]
+		},
+		"orderbookChanges": {
+			"rJnLWBdTReTcA2iRNmUgA1syZCgnH6CXnB": [{
+				"direction": "buy",
+				"quantity": {
+					"currency": "XRP",
+					"value": "1099"
+				},
+				"totalPrice": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "28672.91"
+				},
+				"sequence": 2,
+				"status": "created",
+				"makerExchangeRate": "0.03832886163280951"
+			}],
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"direction": "sell",
+				"quantity": {
+					"currency": "XRP",
+					"value": "50"
+				},
+				"totalPrice": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "1304.5"
+				},
+				"sequence": 218,
+				"status": "filled",
+				"makerExchangeRate": "26.09"
+			}]
+		},
+		"ledgerVersion": 30161164,
+		"indexInLedger": 20
+	}
+}]
+
+//buy taken
+[{
+	"type": "order",
+	"address": "rogue5HnPRSszD9CWGSUz8UGHMVwSSKF6",
+	"sequence": 914801,
+	"id": "E96A6807C418752999469B4B565762B6193944BDB8B53FE4A6AD2C199F492A48",
+	"specification": {
+		"direction": "sell",
+		"quantity": {
+			"currency": "XRP",
+			"value": "230.608348"
+		},
+		"totalPrice": {
+			"currency": "JPY",
+			"value": "5896.2403022",
+			"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+		},
+		"immediateOrCancel": true
+	},
+	"outcome": {
+		"result": "tesSUCCESS",
+		"timestamp": "2017-05-31T13:45:10.000Z",
+		"fee": "0.05",
+		"balanceChanges": {
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "-1282.56"
+			}, {
+				"currency": "XRP",
+				"value": "50"
+			}],
+			"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS": [{
+				"counterparty": "raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf",
+				"currency": "JPY",
+				"value": "1282.56"
+			}, {
+				"counterparty": "rogue5HnPRSszD9CWGSUz8UGHMVwSSKF6",
+				"currency": "JPY",
+				"value": "-4047.904445647155"
+			}, {
+				"counterparty": "rJnLWBdTReTcA2iRNmUgA1syZCgnH6CXnB",
+				"currency": "JPY",
+				"value": "2773.44025453845"
+			}],
+			"rogue5HnPRSszD9CWGSUz8UGHMVwSSKF6": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "4047.904445647155"
+			}, {
+				"currency": "XRP",
+				"value": "-156.140626"
+			}],
+			"rJnLWBdTReTcA2iRNmUgA1syZCgnH6CXnB": [{
+				"currency": "XRP",
+				"value": "106.090626"
+			}, {
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "-2773.44025453845"
+			}]
+		},
+		"orderbookChanges": {
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"direction": "buy",
+				"quantity": {
+					"currency": "XRP",
+					"value": "50"
+				},
+				"totalPrice": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "1280"
+				},
+				"sequence": 217,
+				"status": "filled",
+				"makerExchangeRate": "0.0390625"
+			}],
+			"rJnLWBdTReTcA2iRNmUgA1syZCgnH6CXnB": [{
+				"direction": "buy",
+				"quantity": {
+					"currency": "XRP",
+					"value": "106.090626"
+				},
+				"totalPrice": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "2767.904445647155"
+				},
+				"sequence": 2,
+				"status": "filled",
+				"makerExchangeRate": "0.03832886163280951"
+			}]
+		},
+		"ledgerVersion": 30161165,
+		"indexInLedger": 11
+	}
+}]
+
+// buy taken partially
+order book remainder
+buy 	10.8075 (original 20)	25.6100
+
+[{
+	"type": "payment",
+	"address": "rJqSKHYcwooMAVRVBpf8wwznJBawiFAbWx",
+	"sequence": 190,
+	"id": "84F66FD45055C15CB15B2CC950E63176FF34653E4D6AEB7B1FEB57138FC93A4A",
+	"specification": {
+		"source": {
+			"address": "rJqSKHYcwooMAVRVBpf8wwznJBawiFAbWx",
+			"maxAmount": {
+				"currency": "XRP",
+				"value": "50.483605"
+			}
+		},
+		"destination": {
+			"address": "rJqSKHYcwooMAVRVBpf8wwznJBawiFAbWx",
+			"amount": {
+				"currency": "DOG",
+				"value": "3000"
+			}
+		},
+		"paths": "[[{\"currency\":\"JPY\",\"issuer\":\"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS\",\"type\":48,\"type_hex\":\"0000000000000030\"},{\"currency\":\"DOG\",\"issuer\":\"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS\",\"type\":48,\"type_hex\":\"0000000000000030\"},{\"account\":\"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS\",\"type\":1,\"type_hex\":\"0000000000000001\"}],[{\"currency\":\"USD\",\"issuer\":\"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS\",\"type\":48,\"type_hex\":\"0000000000000030\"},{\"currency\":\"DOG\",\"issuer\":\"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS\",\"type\":48,\"type_hex\":\"0000000000000030\"},{\"account\":\"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS\",\"type\":1,\"type_hex\":\"0000000000000001\"}]]"
+	},
+	"outcome": {
+		"result": "tesSUCCESS",
+		"timestamp": "2017-05-31T13:50:01.000Z",
+		"fee": "0.000012",
+		"balanceChanges": {
+			"r9XRCuhi5uDZY9gPvpiCy6kWDjeH3wM4LU": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "-1038.881790962058"
+			}, {
+				"currency": "XRP",
+				"value": "40.565028"
+			}],
+			"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS": [{
+				"counterparty": "r9XRCuhi5uDZY9gPvpiCy6kWDjeH3wM4LU",
+				"currency": "JPY",
+				"value": "1038.881790962058"
+			}, {
+				"counterparty": "raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf",
+				"currency": "JPY",
+				"value": "235.42087023071"
+			}, {
+				"counterparty": "rDZWLY8k8caBgd42EfDPdwAt3c62yNPPTM",
+				"currency": "DOG",
+				"value": "3005.999999998"
+			}, {
+				"counterparty": "rJqSKHYcwooMAVRVBpf8wwznJBawiFAbWx",
+				"currency": "DOG",
+				"value": "-2999.9999999998"
+			}, {
+				"counterparty": "rBZ6C6PTTscDUfGiSSdtdRK5ZzSRLuyqtM",
+				"currency": "JPY",
+				"value": "5.802438807223"
+			}, {
+				"counterparty": "rDZWLY8k8caBgd42EfDPdwAt3c62yNPPTM",
+				"currency": "JPY",
+				"value": "-1277.549999999"
+			}],
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "-235.42087023071"
+			}, {
+				"currency": "XRP",
+				"value": "9.192537"
+			}],
+			"rDZWLY8k8caBgd42EfDPdwAt3c62yNPPTM": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "DOG",
+				"value": "-3005.999999998"
+			}, {
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "1277.549999999"
+			}],
+			"rJqSKHYcwooMAVRVBpf8wwznJBawiFAbWx": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "DOG",
+				"value": "2999.9999999998"
+			}, {
+				"currency": "XRP",
+				"value": "-49.98378"
+			}],
+			"rBZ6C6PTTscDUfGiSSdtdRK5ZzSRLuyqtM": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "-5.802438807223"
+			}, {
+				"currency": "XRP",
+				"value": "0.226203"
+			}]
+		},
+		"orderbookChanges": {
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"direction": "buy",
+				"quantity": {
+					"currency": "XRP",
+					"value": "9.192537"
+				},
+				"totalPrice": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "235.4208702307197"
+				},
+				"sequence": 219,
+				"status": "partially-filled",
+				"makerExchangeRate": "0.03904724716907458"
+			}],
+			"rDZWLY8k8caBgd42EfDPdwAt3c62yNPPTM": [{
+				"direction": "sell",
+				"quantity": {
+					"currency": "DOG",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "3005.99999999999"
+				},
+				"totalPrice": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "1277.54999999999"
+				},
+				"sequence": 2487,
+				"status": "partially-filled",
+				"makerExchangeRate": "0.425"
+			}],
+			"rBZ6C6PTTscDUfGiSSdtdRK5ZzSRLuyqtM": [{
+				"direction": "buy",
+				"quantity": {
+					"currency": "XRP",
+					"value": "0.226203"
+				},
+				"totalPrice": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "5.802438807223"
+				},
+				"sequence": 667207,
+				"status": "filled",
+				"makerExchangeRate": "0.03898411992134194"
+			}],
+			"r9XRCuhi5uDZY9gPvpiCy6kWDjeH3wM4LU": [{
+				"direction": "buy",
+				"quantity": {
+					"currency": "XRP",
+					"value": "40.565028"
+				},
+				"totalPrice": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "1038.881790962058"
+				},
+				"sequence": 377617,
+				"status": "filled",
+				"makerExchangeRate": "0.03904681758559755"
+			}]
+		},
+		"ledgerVersion": 30161248,
+		"indexInLedger": 0,
+		"deliveredAmount": {
+			"currency": "DOG",
+			"value": "3000",
+			"counterparty": "rJqSKHYcwooMAVRVBpf8wwznJBawiFAbWx"
+		}
+	}
+}]
+// rest of buy order taken
+[{
+	"type": "order",
+	"address": "rnypeWBHZN7byRdwgNXAgjgzFA5bSF99JU",
+	"sequence": 17,
+	"id": "BB0D839290AB2F19D67FC5FBB30414FDFB409EEDFB32D0F88C02CFD540DC49D7",
+	"specification": {
+		"direction": "sell",
+		"quantity": {
+			"currency": "XRP",
+			"value": "1960"
+		},
+		"totalPrice": {
+			"currency": "JPY",
+			"value": "50176",
+			"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS"
+		}
+	},
+	"outcome": {
+		"result": "tesSUCCESS",
+		"timestamp": "2017-05-31T14:02:10.000Z",
+		"fee": "0.000012",
+		"balanceChanges": {
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "-277.33268802881"
+			}, {
+				"currency": "XRP",
+				"value": "10.807463"
+			}],
+			"rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS": [{
+				"counterparty": "raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf",
+				"currency": "JPY",
+				"value": "277.33268802881"
+			}, {
+				"counterparty": "rnypeWBHZN7byRdwgNXAgjgzFA5bSF99JU",
+				"currency": "JPY",
+				"value": "-276.8406798191745"
+			}, {
+				"counterparty": "rfcWA4NhQVKb3fFmHs59VPFbLpGUuh2JKW",
+				"currency": "JPY",
+				"value": "0.061673149994"
+			}],
+			"rnypeWBHZN7byRdwgNXAgjgzFA5bSF99JU": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "276.8406798191745"
+			}, {
+				"currency": "XRP",
+				"value": "-10.809874"
+			}],
+			"rfcWA4NhQVKb3fFmHs59VPFbLpGUuh2JKW": [{
+				"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+				"currency": "JPY",
+				"value": "-0.061673149994"
+			}, {
+				"currency": "XRP",
+				"value": "0.002399"
+			}]
+		},
+		"orderbookChanges": {
+			"raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf": [{
+				"direction": "buy",
+				"quantity": {
+					"currency": "XRP",
+					"value": "10.807463"
+				},
+				"totalPrice": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "276.7791297692803"
+				},
+				"sequence": 219,
+				"status": "filled",
+				"makerExchangeRate": "0.03904724716907458"
+			}],
+			"rnypeWBHZN7byRdwgNXAgjgzFA5bSF99JU": [{
+				"direction": "buy",
+				"quantity": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "49899.2675328"
+				},
+				"totalPrice": {
+					"currency": "XRP",
+					"value": "1949.190138"
+				},
+				"sequence": 17,
+				"status": "created",
+				"makerExchangeRate": "25.6"
+			}],
+			"rfcWA4NhQVKb3fFmHs59VPFbLpGUuh2JKW": [{
+				"direction": "buy",
+				"quantity": {
+					"currency": "XRP",
+					"value": "0.002399"
+				},
+				"totalPrice": {
+					"currency": "JPY",
+					"counterparty": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+					"value": "0.06155004989421"
+				},
+				"sequence": 564,
+				"status": "filled",
+				"makerExchangeRate": "0.03898635477582846"
+			}]
+		},
+		"ledgerVersion": 30161458,
+		"indexInLedger": 2
+	}
+}]
+
+// buy taken
+{ type: 'order',
+  address: 'raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf',
+  sequence: 268,
+  id: '8B394010F30028FA966DF61BBF945F55C3D99F8079C869D3495F94316DC7915B',
+  specification:
+   { direction: 'buy',
+     quantity: { currency: 'XRP', value: '1' },
+     totalPrice:
+      { currency: 'JPY',
+        value: '32',
+        counterparty: 'rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS' } },
+  outcome:
+   { result: 'tesSUCCESS',
+     timestamp: '2017-06-01T02:26:30.000Z',
+     fee: '0.000012',
+     balanceChanges:
+      { raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf:
+         [ { counterparty: 'rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS',
+             currency: 'JPY',
+             value: '-31.56268437' },
+           { currency: 'XRP', value: '0.999988' } ],
+        rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS:
+         [ { counterparty: 'raNDu1gNyZ5hipBTKxm5zx7NovA1rNnNRf',
+             currency: 'JPY',
+             value: '31.56268437' },
+           { counterparty: 'rhS2H7ETM3wBkFETvYycoUm9FEDYi44Pg4',
+             currency: 'JPY',
+             value: '-31.499685' } ],
+        rhS2H7ETM3wBkFETvYycoUm9FEDYi44Pg4:
+         [ { counterparty: 'rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS',
+             currency: 'JPY',
+             value: '31.499685' },
+           { currency: 'XRP', value: '-1' } ] },
+     orderbookChanges:
+      { rhS2H7ETM3wBkFETvYycoUm9FEDYi44Pg4:
+         [ { direction: 'buy',
+             quantity:
+              { currency: 'JPY',
+                counterparty: 'rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS',
+                value: '31.499685' },
+             totalPrice: { currency: 'XRP', value: '1' },
+             sequence: 2443176,
+             status: 'partially-filled',
+             makerExchangeRate: '31.499685' } ] },
+     ledgerVersion: 30173959,
+     indexInLedger: 4 } }

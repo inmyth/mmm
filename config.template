@@ -1,0 +1,23 @@
+[
+  {
+    "pair"              : "XRP/JPY",
+    "issuer"            : "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+    "startMiddlePrice"  : 31.75,
+    "gridSpace"         : 0.05,
+    "buyGridLevels"     : 10,
+    "sellGridLevels"    : 9,
+    "buyOrderQuantity"  : 2,
+    "sellOrderQuantity" : 1.9,
+    "throttle"          : 2
+  },
+  {
+    "pair"              : "XRP/USD",
+    "issuer"            : "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS",
+    "startMiddlePrice"  : 0.2,
+    "gridSpace"         : 0.001,
+    "buyGridLevels"     : 10,
+    "sellGridLevels"    : 9,
+    "buyOrderQuantity"  : 5,
+    "sellOrderQuantity" : 4
+  }
+]

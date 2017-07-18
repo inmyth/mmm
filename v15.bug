@@ -1,0 +1,39 @@
+{ txJSON: ‘{“TransactionType”:“OfferCreate”,“Account”:“rLjDNH9g1AajRT2pxALZmwesd64p4x9XZJ”,“TakerGets”:{“currency”:“USD”,“issuer”:“rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS”,“value”:“56.82521484865243”},“TakerPays”:“218558518”,“Flags”:2147483648,“LastLedgerSequence”:30514688,“Fee”:“12”,“Sequence”:154033}‘,
+    instructions: { fee: ‘0.000012’, sequence: 154033, maxLedgerVersion: 30514688 } },
+ txJSON:
+  { TransactionType: ‘OfferCreate’,
+    Account: ‘rLjDNH9g1AajRT2pxALZmwesd64p4x9XZJ’,
+    TakerGets:
+     { currency: ‘USD’,
+       issuer: ‘rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS’,
+       value: ‘56.82521484865243’ },
+    TakerPays: ‘218558518’,
+    Flags: 2147483648,
+    LastLedgerSequence: 30514688,
+    Fee: ‘12’,
+    Sequence: 154033 },
+ signedTx:
+  { signedTransaction: ‘120007228000000024000259B1201B01D19E0064400000000D06F03665D4D430392288AEDB00000000000000000000000055534400000000006F2531F2B8CDB96D6D986D9D75CC0156DF2C538768400000000000000C7321030074B67240609278D0C1B1F20AAA28A9410B1FF8D922210E3B0E8229C7E1B83B74473045022100A242CED8A5BD2F894350BEB3B1741C87A172BB80969746330A6DC5BC0EEC384002204EC3DE790D4D1430A29B980ACCAA7626C422CF170114B6EBBCE1B0A56C25F4118114D86611889E1A2FA1000FC08BF751971D87B2E4CE’,
+    id: ‘73A11A77E5B404B011FE8BE99123D5CC94978FCE20FE842C63E00E523265B29A’ } }
+verbose:  resultCode=tesSUCCESS, resultMessage=The transaction was applied. Only final in a validated ledger.
+info:  direction=sell, currency=XRP, value=371.960269, currency=BTC, counterparty=rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS, value=0.04017170908089610, passive=false, fillOrKill=false
+info:  direction=sell, currency=XRP, value=371.960269, currency=BTC, counterparty=rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS, value=0.04017170908089610, passive=false, fillOrKill=false
+info:  direction=buy, currency=XRP, value=0, currency=ETH, counterparty=rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS, value=NaN, passive=false, fillOrKill=false
+
+/Volumes/Development/Projects/node_modules/ripple-lib/dist/npm/common/schema-validator.js:60
+   throw new ValidationError(result.errors.join());
+   ^
+ValidationError: instance.order.totalPrice does not match allOf schema <amountbase> with 1 error[s]:,instance.order.totalPrice.value does not match pattern “^[0-9]*[.]?[0-9]+([eE][-+]?[0-9]+)?$”
+   at ValidationError.RippleError (/Volumes/Development/Projects/node_modules/ripple-lib/dist/npm/common/errors.js:36:13)
+   at new ValidationError (/Volumes/Development/Projects/node_modules/ripple-lib/dist/npm/common/errors.js:180:115)
+   at Object.schemaValidate (/Volumes/Development/Projects/node_modules/ripple-lib/dist/npm/common/schema-validator.js:60:11)
+   at Object.wrapper [as prepareOrder] (/Volumes/Development/Projects/node_modules/lodash/index.js:3592:19)
+   at RippleAPI.prepareOrder (/Volumes/Development/Projects/node_modules/ripple-lib/dist/npm/transaction/order.js:49:12)
+   at orders.map.order (/Volumes/Development/Projects/mmm/tx-utils.js:201:28)
+   at Array.map (native)
+   at Timeout.sendMultipleOrders (/Volumes/Development/Projects/mmm/tx-utils.js:199:10)
+   at Timeout.ontimeout [as _onTimeout] (timers.js:347:34)
+   at tryOnTimeout (timers.js:224:11)
+
+[4:00]
+There was a new error.

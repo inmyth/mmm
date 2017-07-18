@@ -1,0 +1,11 @@
+connected
+Subscribed to account rD8dZy2cXdzURTbFb3bhebQ3FFvaWCB8Nx
+{ direction: 'buy',
+  quantity: { currency: 'XRP', value: '5' },
+  totalPrice: 
+   { currency: 'USD',
+     counterparty: 'rHjGuGDJvKQ2RSLj3WesnxVoKVVhbSwYQL',
+     value: '1' },
+  sequence: 328,
+  status: 'filled',
+  makerExchangeRate: '5' }

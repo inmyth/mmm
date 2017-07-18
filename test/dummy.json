@@ -1,0 +1,29 @@
+"yes": true,
+    "wallets": {
+        "bank": {
+            "address": "rHjGuGDJvKQ2RSLj3WesnxVoKVVhbSwYQL",
+            "secret": "ssBFoBpkaSduQJhcDP9jiZVKe5GcQ",
+            "tag": 314
+        },
+        "fund": {
+            "secret": "shF1tYM52sMZif2k2cB5Qs8QvNmHM",
+            "address": "rDnUEzgvZHE6UX7ZJXBA4wt5jWC4uwXAjL"
+        },
+                "fund2":{
+                        "secret": "ssr5uhqU7VZdZrUE36iogSQwyRQ8b",
+                        "address": "rD8dZy2cXdzURTbFb3bhebQ3FFvaWCB8Nx"
+                },
+                "fund3":{
+                        "secret": "shTDcwoLbHjmXqV8AW4cRyQx8YNgR",
+                        "address": "rJjP6Y8Z1TEnFu1NzLCqwoW8YU3sUH2aq"
+                },
+        "root": "rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh"
+    },
+    "assets": {
+        "XMM": "XMM.fund",
+        "USD": "USD.bank",
+        "BTC": "BTC.bank"
+    },
+    "server": "ws://s.altnet.rippletest.net:51233"
+
+mr ripple rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS

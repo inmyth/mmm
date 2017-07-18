@@ -1,0 +1,87 @@
+2017-06-01, 14:21:22 Made offer to buy 1.9 XRP at price 32.9684 JPY.MrRipple
+
+    bought 1.9 XRP at price 32.18 JPY.MrRipple
+
+2017-06-01, 14:21:22 Made offer to buy 1.9 XRP at price 32.9684 JPY.MrRipple
+
+    bought 1.9 XRP at price 32.18 JPY.MrRipple
+
+2017-06-01, 14:21:11 Made offer to sell 2 XRP at price 30.771 JPY.MrRipple
+
+    sold 2 XRP at price 31.51 JPY.MrRipple
+
+2017-06-01, 14:21:02 Made offer to buy 1.9 XRP at price 32.9684 JPY.MrRipple
+
+    bought 1.9 XRP at price 32.18 JPY.MrRipple
+
+2017-06-01, 14:21:02 Made offer to buy 1.9 XRP at price 32.9684 JPY.MrRipple
+
+    bought 1.9 XRP at price 32.18 JPY.MrRipple
+
+2017-06-01, 14:21:00 Made offer to sell 2 XRP at price 30.771 JPY.MrRipple
+
+    sold 2 XRP at price 31.51 JPY.MrRipple
+
+2017-06-01, 14:21:00 Made offer to sell 2 XRP at price 30.771 JPY.MrRipple
+
+    sold 2 XRP at price 31.51 JPY.MrRipple
+
+2017-06-01, 14:20:51 Made offer to buy 1.9 XRP at price 32.9684 JPY.MrRipple
+
+    bought 1.9 XRP at price 32.18 JPY.MrRipple
+
+2017-06-01, 14:20:41 Made offer to sell 2 XRP at price 30.771 JPY.MrRipple
+
+    sold 2 XRP at price 31.51 JPY.MrRipple
+
+2017-06-01, 14:20:32 Made offer to buy 1.9 XRP at price 32.9684 JPY.MrRipple
+
+    bought 1.9 XRP at price 32.18 JPY.MrRipple
+
+2017-06-01, 14:20:30 Made offer to sell 2 XRP at price 30.771 JPY.MrRipple
+
+    sold 2 XRP at price 31.51 JPY.MrRipple
+
+2017-06-01, 14:20:21 Made offer to buy 1.9 XRP at price 32.9578 JPY.MrRipple
+
+    bought 1.9 XRP at price 32.18 JPY.MrRipple
+
+2017-06-01, 14:20:11 Made offer to sell 2 XRP at price 30.7801 JPY.MrRipple
+
+    sold 2 XRP at price 31.5 JPY.MrRipple
+
+2017-06-01, 14:20:02 Made offer to buy 1.9 XRP at price 32.9578 JPY.MrRipple
+
+    bought 1.9 XRP at price 32.1896 JPY.MrRipple
+
+2017-06-01, 14:20:00 Made offer to sell 2 XRP at price 30.7801 JPY.MrRipple
+
+    sold 2 XRP at price 31.5 JPY.MrRipple
+
+2017-06-01, 14:19:51 Made offer to buy 1.9 XRP at price 32.9578 JPY.MrRipple
+
+    bought 1.9 XRP at price 32.1896 JPY.MrRipple
+
+2017-06-01, 14:19:42 Made offer to sell 2 XRP at price 30.7801 JPY.MrRipple
+
+    sold 2 XRP at price 31.5 JPY.MrRipple
+
+2017-06-01, 14:19:40 Made offer to buy 1.9 XRP at price 32.9578 JPY.MrRipple
+
+    bought 1.9 XRP at price 32.1896 JPY.MrRipple
+
+2017-06-01, 14:19:30 Made offer to sell 2 XRP at price 30.7801 JPY.MrRipple
+
+    sold 2 XRP at price 31.5 JPY.MrRipple
+
+2017-06-01, 14:19:21 Made offer to buy 1.9 XRP at price 33.0631 JPY.MrRipple
+
+    bought 1.9 XRP at price 32.1896 JPY.MrRipple
+
+2017-06-01, 14:19:11
+
+    bought 2 XRP at price 31.6 JPY.MrRipple. (order fully matched)
+
+2017-06-01, 14:18:31 Made offer to buy 2 XRP at price 31.6 JPY.MrRipple
+
+    placed new order buying 2 XRP at price 31.6 JPY.MrRipple

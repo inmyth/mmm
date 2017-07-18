@@ -1,0 +1,17 @@
+
+type : order, payment
+order.orderbookChanges.<address>.status : filled, partially-filled
+
+
+buy or sell
+order.address != own
+order.orderbookChanges.own exists
+
+order.address = own
+order.orderbookChanges.<!own> exists
+order.orderbookChanges.<own> not exists
+
+if type : payment
+payment.address != own
+payment.orderbookChanges.<own> exists
+
